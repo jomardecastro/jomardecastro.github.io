@@ -7,18 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <title>White Papers | Argent</title>
-  <link rel="stylesheet" href="assets/css/company.css" />
+  <link rel="stylesheet" href="assets/css/pages.css" />
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
     id='jquery-cdn-js'></script>
   <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
     id='bootstrap.min.js-cdn-js'></script>
   <link rel='stylesheet' id='bootstrap.min-css'
     href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
+    <style>
+    h1 {
+      font-size: 64px !important;
+      line-height: 100px;
+      color: #1E293B;
+    }
+  </style>
 </head>
 
 <body class="font-cairo">
 
-  <?php include '../layout/header.php'; ?>
+  <?php include './layout/header.php'; ?>
 
   <main>
     <section class="banner inner">
@@ -323,7 +330,7 @@ United States</p>
     </section>
   </main>
 
-  <?php include '../layout/footer.php'; ?>
+  <?php include './layout/footer.php'; ?>
 
 
 

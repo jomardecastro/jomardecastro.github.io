@@ -11,14 +11,13 @@
     <script src="assets/scripts/swiper.js"></script>
     <script src="assets/scripts/scripts.js"></script>
     <link rel="stylesheet" href="assets/css/pages.css" />
-
+    
     
 </head>
 
 <body class="font-cairo">
 
     <?php include 'layout/header.php'; ?>
-
     <main>
         <div class="crust-page-loader crust-animated-load" id="loader">
             <div class="crust-inner-loader">

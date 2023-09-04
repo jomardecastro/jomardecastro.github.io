@@ -12,7 +12,7 @@
                 </h4>
                 <ul class="flex items-center flex-col gap-1.5">
                     <li class="">
-                        <a href="contact-us"
+                        <a href="contact-us.php"
                             class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">Contact
                             Us</a>
                     </li>
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="argents-unique-architecture"
+                        <a href="argents-unique-architecture.php"
                             class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
                             Argent’s Unique Architecture
                         </a>
@@ -51,7 +51,7 @@
                 </h4>
                 <ul class="flex items-center flex-col gap-1.5">
                     <li class="">
-                        <a href="privacy-policy"
+                        <a href="privacy-policy.php"
                             class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
                             Privacy Policy
                         </a>

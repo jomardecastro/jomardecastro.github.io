@@ -30,7 +30,7 @@
 		}
 		.main-wrap .accordions .card .card-header .btn:after 
 		{
-			background-image: url(../images/angle.svg) !important;
+			background-image: url("assets/images/angle.svg") !important;
 		}
 		
 		.main-wrap .accordions .card-body .nav-tabs .nav-item .nav-link 
@@ -38,12 +38,11 @@
 			letter-spacing: 0 !important;
 		}
 	</style>
-	<link rel="stylesheet" href="assets/css/products.css" />
 
 </head>
 
 <body class="font-cairo">
-	<?php include '../layout/header.php'; ?>
+	<?php include './layout/header.php'; ?>
 	<main>
 		<section class="banner inner">
 			<div class="container">
@@ -3671,10 +3670,7 @@
 			</div>
 		</section>
 	</main>
-	<?php include '../layout/footer.php'; ?>
-	<script src="assets/scripts/jquiry.js"></script>
-	<script src="assets/scripts/swiper.js"></script>
-	<script src="assets/scripts/scripts.js"></script>
+	<?php include './layout/footer.php'; ?>
 </body>
 
 </html>

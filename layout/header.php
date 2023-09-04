@@ -15,14 +15,19 @@
         id='bootstrap.min.js-cdn-js'></script>
     <link rel='stylesheet' id='bootstrap.min-css'
         href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
-    <link rel="icon" href="assets/images/fav.png" sizes="32x32" />
-    <link rel="icon" href="assets/images/fav.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="assets/images/fav.png" />
+    <link rel="icon" href="../assets/images/fav.png" sizes="32x32" />
+    <link rel="icon" href="../assets/images/fav.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../assets/images/fav.png" />
+    <style>
+        header
+        {
+            z-index :1;
+        }
+    </style>
 </head>
 
 <body class="font-cairo">
 
-    <main>
     <header class="lg:py-5 bg-white sticky top-0 shadow-header transition-all duration-700">
         <div class="container grid grid-cols-2 lg:flex lg:items-center lg:justify-between lg:px-10">
             <a href="https://instanthelp.argent.com/login"
@@ -40,14 +45,14 @@
                     <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/') ? 'active' : ''; ?>">
                         <a href="/" class="nav-link">Home</a>
                     </li>
-                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/products') ? 'active' : ''; ?>">
-                        <a href="products" class="nav-link">Products</a>
+                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/products.php') ? 'active' : ''; ?>">
+                        <a href="products.php" class="nav-link">Products</a>
                     </li>
-                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/whitepaper') ? 'active' : ''; ?>">
-                        <a href="whitepaper" class="nav-link">White Papers</a>
+                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/whitepaper.php') ? 'active' : ''; ?>">
+                        <a href="whitepaper.php" class="nav-link">White Papers</a>
                     </li>
-                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/company') ? 'active' : ''; ?>">
-                        <a href="company" class="nav-link">Company</a>
+                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/company.php') ? 'active' : ''; ?>">
+                        <a href="company.php" class="nav-link">Company</a>
                     </li>
                     <li class="menu-item nav-item">
                         <a target="_blank" rel="noopener" href="https://help.argent.com/support/" class="nav-link">Support</a>
@@ -62,7 +67,6 @@
             </nav>
         </div>
     </header>
-    </main>
 </body>
 
 </html>

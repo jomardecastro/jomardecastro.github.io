@@ -10,6 +10,7 @@
     <script src="assets/scripts/jquiry.js"></script>
     <script src="assets/scripts/swiper.js"></script>
     <script src="assets/scripts/scripts.js"></script>
+    <link rel="stylesheet" href="assets/css/pages.css" />
 
     
 </head>

@@ -37,7 +37,7 @@
             <nav class="nav-menu flex justify-end">
                 <ul id="menu-header-menu"
                     class="transition-all duration-700 flex flex-col lg:flex-row z-[1] lg:py-0 items-center gap-2 lg:gap-10 fixed lg:static -top-52 left-0 w-full lg:w-auto bg-[#f2fbfc] lg:bg-transparent">
-                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/index') ? 'active' : ''; ?>">
+                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/') ? 'active' : ''; ?>">
                         <a href="/" class="nav-link">Home</a>
                     </li>
                     <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/products') ? 'active' : ''; ?>">

@@ -17,7 +17,7 @@ $(document).ready(() =>
     {
       $.ajax({
         type: "POST",
-        url: "/contact_submit.php",
+        url: "/backend/contact_submit.php",
         data: formData,
         success: function (response) 
         {

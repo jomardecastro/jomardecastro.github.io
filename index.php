@@ -6,55 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/swiper.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Home</title>
+    <script src="assets/scripts/jquiry.js"></script>
+    <script src="assets/scripts/swiper.js"></script>
+    <script src="assets/scripts/scripts.js"></script>
+
+    <link rel="icon" href="assets/images/fav.png" sizes="32x32" />
+    <link rel="icon" href="assets/images/fav.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/images/fav.png" />
 </head>
 
 <body class="font-cairo">
 
-    <header class="lg:py-5 bg-white sticky top-0 shadow-header transition-all duration-700">
-        <div class="container grid grid-cols-2 lg:flex lg:items-center lg:justify-between lg:px-10">
-            <a href="https://instanthelp.argent.com/login"
-                class="px-10 py-2 lg:p-0 col-span-2 lg:order-last text-[#ff602e] text-lg leading-7 tracking-[2px] font-semibold flex items-center justify-center lg:justify-end bg-[#001647] lg:bg-transparent gap-1">
-                <img src="assets/images/support.svg" width="38" height="38" alt="v">
-                Instant Help
-            </a>
-            <a href="#" class="pl-10 py-7 lg:p-0">
-                <img src="assets/images/logo.png" width="147" height="16" alt="Logo">
-                <span class="sr-only">Logo</span>
-            </a>
-            <nav class="nav-menu flex justify-end">
-                <ul id="menu-header-menu"
-                    class="transition-all duration-700 flex flex-col lg:flex-row z-[1] py-4 lg:py-0 items-center gap-2 lg:gap-10 fixed lg:static -top-52 left-0 w-full lg:w-auto bg-[#f2fbfc] lg:bg-transparent">
-                    <li class="menu-item nav-item active ">
-                        <a href="https://www.argent.com/" class="nav-link">Home</a>
-                    </li>
-                    <li class="menu-item  nav-item">
-                        <a href="https://www.argent.com/products/" class="nav-link">Products</a>
-                    </li>
-                    <li class="menu-item  nav-item">
-                        <a href="https://www.argent.com/white-papers/" class="nav-link">White Papers</a>
-                    </li>
-                    <li class="menu-item  nav-item">
-                        <a href="https://www.argent.com/company/" class="nav-link">Company</a>
-                    </li>
-                    <li class="menu-item  nav-item">
-                        <a target="_blank" rel="noopener" href="https://help.argent.com/support/"
-                            class="nav-link">Support</a>
-                    </li>
-                </ul>
-                <div class="toggle-mob-menu w-fit pr-10 py-7 lg:p-0 flex flex-col gap-1.5 items-end lg:hidden"
-                    id="toggle">
-                    <div class="one transition-all duration-300 origin-center h-[3px] w-7 bg-[#ff602e]"></div>
-                    <div class="two transition-all duration-300 origin-center h-[3px] w-7 bg-[#ff602e]"></div>
-                    <div class="three transition-all duration-300 origin-center h-[3px] w-7 bg-[#ff602e]"></div>
-                </div>
-            </nav>
-
-
-        </div>
-    </header>
+    <?php include 'includes/header.php'; ?>
 
     <main>
         <div class="crust-page-loader crust-animated-load" id="loader">
@@ -364,84 +328,10 @@
         </section>
     </main>
 
-    <footer class="bg-[#f6fcfd] pt-[54px] pb-4">
-        <div class="flex flex-col container items-center">
-            <a href="#" class="">
-                <img src="assets/images/footer-logo.png" width="184" height="20" alt="logo">
-                <span class="sr-only">Logo</span>
-            </a>
-            <div class="grid lg:grid-cols-3 py-6 lg:pt-[100px] lg:pb-[66px] w-full gap-4">
-                <div class="flex flex-col">
-                    <h4
-                        class="text-[#233655] text-sm lg:text-[22px] leading-[30px] font-bold text-center tracking-[4px]">
-                        Company
-                    </h4>
-                    <ul class="flex items-center flex-col gap-1.5">
-                        <li class="">
-                            <a href="#"
-                                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">Contact
-                                Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex flex-col">
-                    <h4
-                        class="text-[#233655] text-sm lg:text-[22px] leading-[30px] font-bold text-center tracking-[4px]">
-                        Documentation
-                    </h4>
-                    <ul class="flex items-center flex-col gap-1.5">
-                        <li class="">
-                            <a href="#"
-                                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
-                                Support and Knowledgebase Articles
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#"
-                                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
-                                Live Instant Help
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#"
-                                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
-                                Argent’s Architecture
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex flex-col">
-                    <h4
-                        class="text-[#233655] text-sm lg:text-[22px] leading-[30px] font-bold text-center tracking-[4px]">
-                        Privacy Policy
-                    </h4>
-                    <ul class="flex items-center flex-col gap-1.5">
-                        <li class="">
-                            <a href="#"
-                                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
-                                Privacy Policy
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <?php include 'includes/footer.php'; ?>
+    
 
-            </div>
-
-            <div class="px-6 lg:px-0">
-                <p class="text-[#5a6581] text-xs lg:text-sm leading-7 text-center">
-                    Performance Assured by Argent® Web Defender
-                    <a class="text-[#1565d8]" href="https://help.argent.com/product_downloads/product_downloads_omega/"
-                        target="_blank">
-                        Click to download free demo
-                    </a>
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="assets/scripts/jquiry.js"></script>
-    <script src="assets/scripts/swiper.js"></script>
-    <script src="assets/scripts/scripts.js"></script>
+    
 </body>
 
 </html>

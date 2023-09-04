@@ -1044,6 +1044,7 @@ video {
 
 .nav-link {
   transition: transform 0.25s ease-out;
+  padding:0 !important;
 }
 
 .nav-link::after {

@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr" class="scroll-smooth">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/swiper.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
-        id='jquery-cdn-js'></script>
-	<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
-        id='bootstrap.min.js-cdn-js'></script>
-    <link rel='stylesheet' id='bootstrap.min-css'
-        href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
-    <link rel="icon" href="../assets/images/fav.png" sizes="32x32" />
-    <link rel="icon" href="../assets/images/fav.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="../assets/images/fav.png" />
-    <style>
-        header
-        {
-            z-index :1;
-        }
-    </style>
-</head>
-
-<body class="font-cairo">
 
     <header class="lg:py-5 bg-white sticky top-0 shadow-header transition-all duration-700">
         <div class="container grid grid-cols-2 lg:flex lg:items-center lg:justify-between lg:px-10">
@@ -67,6 +38,3 @@
             </nav>
         </div>
     </header>
-</body>
-
-</html>

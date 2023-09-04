@@ -52,6 +52,8 @@ else
   ];
 }
 
+sleep(1); //just to simulate post request loading
+
 header("Content-Type: application/json");
 echo json_encode($response);
 ?>

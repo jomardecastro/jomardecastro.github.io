@@ -12,12 +12,19 @@
     id='jquery-cdn-js'></script>
   <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
     id='bootstrap.min.js-cdn-js'></script>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
   <link rel='stylesheet' id='bootstrap.min-css'
     href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
   <link rel="stylesheet" href="assets/css/pages.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
+      id='jquery-cdn-js'></script>
+  <link rel="icon" href="../assets/images/fav.png" sizes="32x32" />
+  <link rel="icon" href="../assets/images/fav.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="../assets/images/fav.png" />
+
+
   <script src="assets/scripts/contact.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <style>
     h1 {
@@ -145,11 +152,12 @@
                 <div class="field-wrap mb-0 text-center">
                   <div class="g-recaptcha" data-sitekey="6LcZxvgnAAAAABmDPFhDgvxGsJVcQpx5qXooUe5w" data-callback="captchaSuccess"></div>
                   <div id="captcha_error" class="wpcf7-not-valid-tip" aria-hidden="true"></div>
-
                   <input class="has-spinner wpcf7-submit btn submit my-2" type="submit"
-                    value="Send Contact Request"><span class="wpcf7-spinner"></span>
+                    value="Send Contact Request">
+                  <span id="spinner" class="wpcf7-spinner"></span>
+                  <div id="contact_submission_success" class="" aria-hidden="true"></div>
+
                 </div>
-                <div class="wpcf7-response-output" aria-hidden="true"></div>
               </form>
             </div>
           </div>

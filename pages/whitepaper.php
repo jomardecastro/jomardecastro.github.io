@@ -40,30 +40,30 @@
                     $jsonData = '[
                         {
                             "title":"Argent White Paper \n Monitor CCTVs In Under Four Hours",
-                            "link":"assets/pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf",
+                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf",
                             "free":true
                         },
                         {
                             "title":"Argent White Paper \n Monitoring SSL Certificates",
-                            "link":"assets/pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf",
+                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf",
                             "free":true
                         },
                         {
                             "title":"Argent White Paper \n Keeping All Kids Safe",
-                            "link":"assets/pdf/Argent_Omega_FREE_FEATURE_White Paper_Keeping_All_Kids_Safe.pdf",
+                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_FREE_FEATURE_White%20Paper_Keeping_All_Kids_Safe.pdf",
                             "free":true
                         },
                         {
                             "title":"Argent White Paper \n SIEM-Complete Features \n And Benefits",
-                            "link":"assets/pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf"
+                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf"
                         },
                         {
                             "title":"Argent White Paper \n Stoppings Ransomware Permanently",
-                            "link":"assets/pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf"
+                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf"
                         },
                         {
                             "title":"Argent White Paper \n Argent Omega Benefits \n Over Argent AT",
-                            "link":"assets/pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf"
+                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf"
                         },
                         {
                             "title":"Argent SIEM-Complete Features And Benefits",

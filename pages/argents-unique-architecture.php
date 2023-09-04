@@ -18,7 +18,7 @@
 
 <body class="font-cairo">
 
-  <?php include '../includes/header.php'; ?>
+  <?php include '../layout/header.php'; ?>
 
   <main>
     <section class="banner inner">
@@ -103,7 +103,7 @@
     </section>
   </main>
 
-  <?php include '../includes/footer.php'; ?>
+  <?php include '../layout/footer.php'; ?>
 
 
 

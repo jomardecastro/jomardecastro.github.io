@@ -15,7 +15,9 @@
         id='bootstrap.min.js-cdn-js'></script>
     <link rel='stylesheet' id='bootstrap.min-css'
         href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
-    
+    <link rel="icon" href="assets/images/fav.png" sizes="32x32" />
+    <link rel="icon" href="assets/images/fav.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/images/fav.png" />
 </head>
 
 <body class="font-cairo">
@@ -47,8 +49,8 @@
                     <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/company') ? 'active' : ''; ?>">
                         <a href="company" class="nav-link">Company</a>
                     </li>
-                    <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/support') ? 'active' : ''; ?>">
-                        <a target="_blank" rel="noopener" href="support" class="nav-link">Support</a>
+                    <li class="menu-item nav-item">
+                        <a target="_blank" rel="noopener" href="https://help.argent.com/support/" class="nav-link">Support</a>
                     </li>
                 </ul>
                 <div class="toggle-mob-menu w-fit pr-10 py-7 lg:p-0 flex flex-col gap-1.5 items-end lg:hidden"

@@ -11,14 +11,12 @@
     <script src="assets/scripts/swiper.js"></script>
     <script src="assets/scripts/scripts.js"></script>
 
-    <link rel="icon" href="assets/images/fav.png" sizes="32x32" />
-    <link rel="icon" href="assets/images/fav.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="assets/images/fav.png" />
+    
 </head>
 
 <body class="font-cairo">
 
-    <?php include 'includes/header.php'; ?>
+    <?php include 'layout/header.php'; ?>
 
     <main>
         <div class="crust-page-loader crust-animated-load" id="loader">
@@ -328,7 +326,7 @@
         </section>
     </main>
 
-    <?php include 'includes/footer.php'; ?>
+    <?php include 'layout/footer.php'; ?>
     
 
     

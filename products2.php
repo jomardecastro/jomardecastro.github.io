@@ -7,20 +7,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 	<title>Products</title>
-	<link rel="stylesheet" href="assets/css/pages.css" />
+	<link rel="stylesheet" href="/assets/css/pages.css" />
 	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
     id='jquery-cdn-js'></script>
   <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
     id='bootstrap.min.js-cdn-js'></script>
   <link rel='stylesheet' id='bootstrap.min-css'
     href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
-  <link rel="stylesheet" href="assets/css/pages.css" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/pages.css" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
       id='jquery-cdn-js'></script>
-  <link rel="icon" href="../assets/images/fav.png" sizes="32x32" />
-  <link rel="icon" href="../assets/images/fav.png" sizes="192x192" />
-  <link rel="apple-touch-icon" href="../assets/images/fav.png" />
+  <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
+  <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/assets/images/fav.png" />
 	<style>
 		h1, h2, h3, h4, h5, h6 
 		{
@@ -42,37 +42,19 @@
 		}
 		.main-wrap .accordions .card .card-header .btn:after 
 		{
-			background-image: url("assets/images/angle.svg") !important;
+			background-image: url("/assets/images/angle.svg") !important;
 		}
 		
 		.main-wrap .accordions .card-body .nav-tabs .nav-item .nav-link 
 		{
 			letter-spacing: 0 !important;
 		}
-		.nav-link
-		{
-				transition: none !important; 
-		}
 	</style>
-	 <script>
-			$(document).ready(function () 
-			{
-				$('a.nav-link.nav-tab').click(function (event) 
-				{
-					event.preventDefault();
-					let link_id = $(this).attr('id');
-					$(`.active.nav-tab`).removeClass('active')
-					$(this).addClass('active');
-					$(`.show.active.main-tab`).removeClass('show active')
-					$('.'+link_id).addClass('show active')
-					console.log("Clicked link id: " + link_id);
-				});
-			});
-    </script>
+
 </head>
 
 <body class="font-cairo">
-	<?php include './layout/header.php'; ?>
+	<?php include __DIR__.'/layout/header.php'; ?>
 	<main>
 		<section class="banner inner">
 			<div class="container">
@@ -95,30 +77,32 @@
 								<div class="card-body">
 									<!-- Tabs List -->
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab active"
-												id="argent-omega">
+										<li class="nav-item"> <a class="nav-link active"
+												href="/product/argent-omega/">
 												Argent Omega </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-guardian">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-guardian/">
 												Argent Guardian Ultra </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-aws">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-aws/">
 												Argent AWS </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-console">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-console/">
 												Argent Console </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-sharepoint">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-sharepoint/">
 												Argent for SharePoint </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-exchange">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-exchange/">
 												Argent for Exchange </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-java">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-for-java/">
 												Argent for Java </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-snmp">
+										<li class="nav-item"> <a class="nav-link " href="/product/356-2/">
 												Argent for SNMP </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-storage">
+										<li class="nav-item"> <a class="nav-link "
+												href="/product/argent-for-storage/">
 												Argent for Storage </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-xenapp">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-for-xenapp/">
 												Argent for XenApp </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-active-directory">
+										<li class="nav-item"> <a class="nav-link "
+												href="/product/argent-for-active-directory/">
 												Argent for Active Directory </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-sap">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-for-sap/">
 												Argent for SAP </a> </li>
 									</ul>
 									<!-- Tabs List -->
@@ -134,9 +118,10 @@
 								<div class="card-body">
 									<!-- Tabs List -->
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab active" id="batch-job-automation">
+										<li class="nav-item"> <a class="nav-link active"
+												href="/product/batch-job-automation/">
 												Argent Job Scheduler </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-worldview">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-worldview/">
 												Argent WorldView </a> </li>
 									</ul>
 									<!-- Tabs List -->
@@ -152,9 +137,11 @@
 								<div class="card-body">
 									<!-- Tabs List -->
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab active" id="argent-sentinel">
+										<li class="nav-item"> <a class="nav-link active"
+												href="/product/argent-sentinel-2/">
 												Argent Sentinel </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-sentry-ultra">
+										<li class="nav-item"> <a class="nav-link "
+												href="/product/argent-sentry-ultra/">
 												Argent Sentry Ultra </a> </li>
 									</ul>
 									<!-- Tabs List -->
@@ -170,9 +157,11 @@
 								<div class="card-body">
 									<!-- Tabs List -->
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab active" id="argent-for-compliance">
+										<li class="nav-item"> <a class="nav-link active"
+												href="/product/argent-for-compliance/">
 												Argent for Compliance </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-security">
+										<li class="nav-item"> <a class="nav-link "
+												href="/product/argent-for-security/">
 												Argent for Security </a> </li>
 									</ul>
 									<!-- Tabs List -->
@@ -188,11 +177,13 @@
 								<div class="card-body">
 									<!-- Tabs List -->
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab active" id="argent-for-hyper-v">
+										<li class="nav-item"> <a class="nav-link active"
+												href="/product/argent-for-hyper-v/">
 												Argent for Hyper-V </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-vmware">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-for-vmware/">
 												Argent for VMware </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-xenserver">
+										<li class="nav-item"> <a class="nav-link "
+												href="/product/argent-for-xenserver/">
 												Argent for XenServer </a> </li>
 									</ul>
 									<!-- Tabs List -->
@@ -208,13 +199,15 @@
 								<div class="card-body">
 									<!-- Tabs List -->
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab active" id="argent-boardroom">
+										<li class="nav-item"> <a class="nav-link active"
+												href="/product/argent-boardroom/">
 												Argent BoardRoom </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-commander">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-commander/">
 												Argent Commander </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-global-manager">
+										<li class="nav-item"> <a class="nav-link "
+												href="/product/argent-global-manager/">
 												Argent Global Manager </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-reports">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-reports/">
 												Argent Reports </a> </li>
 									</ul>
 									<!-- Tabs List -->
@@ -230,13 +223,15 @@
 								<div class="card-body">
 									<!-- Tabs List -->
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab active" id="argent-for-mysql">
+										<li class="nav-item"> <a class="nav-link active"
+												href="/product/argent-for-mysql/">
 												Argent for MySQL </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-oracle">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-for-oracle/">
 												Argent for Oracle </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-sql-server">
+										<li class="nav-item"> <a class="nav-link "
+												href="/product/argent-for-sql-server/">
 												Argent for SQL Server </a> </li>
-										<li class="nav-item"> <a href ="#" class="nav-link nav-tab " id="argent-for-sybase">
+										<li class="nav-item"> <a class="nav-link " href="/product/argent-for-sybase/">
 												Argent for Sybase </a> </li>
 									</ul>
 									<!-- Tabs List -->
@@ -246,7 +241,7 @@
 					</div>
 					<!-- tab-content -->
 					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active main-tab argent-omega" role="tabpanel" aria-labelledby="first283-tab">
+						<div class="tab-pane fade show active" id="first283" role="tabpanel" aria-labelledby="first283-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -291,742 +286,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-guardian" role="tabpanel" aria-labelledby="first286-tab">
-							<!-- Inner Tabs -->
-							<div class="inner-tabs">
-								<ul class="nav nav-tabs" id="myTab" role="tablist">
-									<li role="presentation" class="active"> <a class="active" href="#overview286"
-											aria-controls="overview286" role="tab" data-toggle="tab">Overview </a> </li>
-									<li role="presentation"> <a class="" href="#windows286" aria-controls="windows286" role="tab"
-											data-toggle="tab">Windows</a> </li>
-									<li role="presentation"> <a class="" href="#linux-unix286" aria-controls="linux-unix286" role="tab"
-											data-toggle="tab">Linux/Unix</a> </li>
-									<li role="presentation"> <a class="" href="#iseries286" aria-controls="iseries286" role="tab"
-											data-toggle="tab">iSeries</a> </li>
-								</ul>
-								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane fade show active " id="overview286">
-										<!-- Inner Content Start -->
-										<h2>
-											Argent Guardian Ultra </h2>
-										<p>Argent Guardian<sup>®</sup>&nbsp;Ultra is the world’s most scalable monitoring solution for all
-											Windows, Linux, UNIX (AIX, HP-UX, SCO, Solaris), and iSeries Servers. Using a patented
-											agent-optional architecture, Argent Guardian<sup>®</sup>&nbsp;Ultra monitors servers with or
-											without installing agents, providing the power and flexibility to define the monitoring
-											architecture to match customers’ exact needs.</p>
-										<p>Argent Guardian<sup>®</sup>&nbsp;Ultra monitors the health and performance of servers and when
-											issues arise, alerts are executed via Argent Console. Argent Console can be viewed using both a
-											traditional GUI interface, as well as a web-based interface. Over a dozen different types of
-											alerts can be executed using Argent Console, such as alphanumeric paging, email, and SMS. Argent
-											also can take corrective measures, such as restarting stopped or stalled services and even
-											rebooting servers. As a result, IT personnel are notified and issues are addressed automatically
-											before end users even know problems exist. Argent makes SLA commitments easy to meet.</p>
-										<p>Find out why more than 2,000 organizations worldwide rely on Argent to enhance the reliability
-											and performance of their enterprise.</p>
-										<div class="Images-wrap">
-											<a href="javascript:;" data-fancybox="Argent Guardian Ultra"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/agu_l_b.jpg" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/agu_l_b.jpg" alt="Image"> </a>
-											<a href="javascript:;" data-fancybox="Argent Guardian Ultra"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/console_l_b-1.jpg" target="_blank">
-												<img src="https://www.argent.com/wp-content/uploads/2022/11/console_l_b-1.jpg" alt="Image"> </a>
-										</div>
-										<h3>Agent-Optional Architecture</h3>
-										<p>Using a unique and patented agent-optional architecture, Argent Guardian® Ultra is the leading
-											solution for monitoring all aspects of the enterprise from a central console. Argent Guardian®
-											Ultra supports all Windows, Linux, Unix and iSeries systems. The product is delivered with
-											powerful, pre-defined Rule Sets containing over 10,000 Rules and pre-defined reports enabling
-											customers to immediately maximize the reliability of production servers and applications through
-											the automatic detection and correction of problems and issues. For example, Service Level
-											Agreement reports can be generated each day and then automatically emailed to management.</p>
-										<h3>Lower Support Costs And Increased Reliability</h3>
-										<p>Argent Guardian® Ultra decreases the Total Cost of Ownership (TCO) while at the same time
-											increasing the reliability of production servers, all from a central console that can be viewed
-											using both a traditional GUI interface, as well as a web-based interface. Over 10,000 pre-defined
-											Rules enable customers to effectively and comprehensively monitor all production servers within
-											two hours of installation.</p>
-										<h3>Flexible Architecture: Scales To Meet Requirements</h3>
-										<p>Only Argent supports a number of different monitoring architectures. Install Argent Guardian®
-											Ultra on a single server and, in a matter of minutes, monitor all the servers in the enterprise.
-											For larger organizations, install Regional Agents for greater flexibility. For customers with
-											unique needs, Argent Guardian® Ultra supports both remote (agentless) and agent-based monitoring
-											in the same domain. As a result, whether there are 10 servers or 10,000 servers, Argent Guardian®
-											Ultra is the ideal solution.</p>
-										<p>Argent is the choice of four of the five largest law firms on the world.</p>
-										<h3>Unique n-Tier Architecture</h3>
-										<p>No other product has Argent Guardian® Ultra’s true n-tier architecture. Monitoring Groups and
-											SuperConsoles can easily be created to group servers along business lines, geographic location, or
-											server type; the possibilities are unlimited.</p>
-										<p>Only Argent Console enables customers to view all outstanding alerts from all Monitoring Groups
-											worldwide on a central console as well as issue alerts when problems arise. For example, servers
-											can be grouped by type – all SQL Servers in one monitoring environment, all Exchange Servers in
-											another, all IIS Servers in another, and so on and yet still view them all on the same console.
-										</p>
-										<h3>A Total Solution</h3>
-										<p>Argent Guardian® Ultra is a complete and integrated solution. Unlike other vendors who sell
-											separate consoles and GUIs, Argent Guardian® Ultra provides everything needed to completely
-											monitor the enterprise at one cost-effective price. Argent Guardian® Ultra integrates with help
-											desk solutions such as Remedy, as well as all common hardware monitors, such as Dell OpenManage
-											and IBM Director.</p>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="windows286">
-										<!-- Inner Content Start -->
-										<h3>Windows Monitoring</h3>
-										<p>The following is a partial list of installed Rules. Out-of-the-box, <strong>Argent handles over
-												95% of your day-to-day needs.</strong>
-											<br> Argent solves all your day-to-day problems — <strong>automatically.</strong>
-										</p>
-										<h4>CPU</h4>
-										<ul>
-											<li>CPU overload</li>
-											<li>Processor bottleneck</li>
-											<li>Excessive CPU utilization by process</li>
-											<li>Processor errors</li>
-										</ul>
-										<h4>Disk</h4>
-										<ul>
-											<li>Free space</li>
-											<li>Used space</li>
-											<li>Disk queue length</li>
-											<li>Disk I/O by processes</li>
-										</ul>
-										<h4>Memory</h4>
-										<ul>
-											<li>Available memory</li>
-											<li>Excessive memory usage by processes</li>
-											<li>Memory shortage</li>
-										</ul>
-										<h4>Network</h4>
-										<ul>
-											<li>Network bottleneck</li>
-											<li>Network availability</li>
-											<li>Inbound traffic</li>
-											<li>Outbound traffic</li>
-											<li>Network errors</li>
-											<li>Cluster network availability</li>
-											<li>Cluster network interface availability</li>
-										</ul>
-										<h4>Processes</h4>
-										<ul>
-											<li>Hung processes</li>
-											<li>Key application processes</li>
-										</ul>
-										<h4>Service Level Agreement</h4>
-										<ul>
-											<li>Windows API</li>
-											<li>TCP/IP Ping</li>
-											<li>Port Status Checks</li>
-											<li>File Share Accessibility</li>
-											<li>SSH Logons</li>
-										</ul>
-										<h4>Services</h4>
-										<ul>
-											<li>ArcServe</li>
-											<li>Backup Exec</li>
-											<li>DB2</li>
-											<li>DHCP Client/DHCP Server</li>
-											<li>Lotus Domino</li>
-											<li>IBM Websphere HTTP</li>
-											<li>IIS</li>
-											<li>Oracle</li>
-											<li>Routing And Remote Access</li>
-											<li>Print Spooler</li>
-											<li>SQL Server</li>
-											<li>ICA Browser</li>
-											<li>Terminal Services</li>
-										</ul>
-										<h4>System</h4>
-										<ul>
-											<li>Availability</li>
-											<li>Registry Keys</li>
-											<li>System Uptime</li>
-											<li>Service Pack Levels</li>
-											<li>PowerShell/WMI Connectivity</li>
-										</ul>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="linux-unix286">
-										<!-- Inner Content Start -->
-										<h3>Linux/Unix Monitoring</h3>
-										<p>Because of Argent’s unique architecture, Argent installs in under 10 minutes and is monitoring
-											your environment in under an hour.
-											<br> Argent gives you the choice of any – or all – of the following seven methods to monitor your
-											Linux and Unix servers:
-										</p>
-										<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-657"
-												src="https://www.argent.com/wp-content/uploads/2022/11/agu_linux.png" alt="" width="604"
-												height="338"
-												srcset="https://www.argent.com/wp-content/uploads/2022/11/agu_linux.png 604w, https://www.argent.com/wp-content/uploads/2022/11/agu_linux-300x168.png 300w"
-												sizes="(max-width: 604px) 100vw, 604px"></p>
-										<h3>Centrally Located Scripts – No Confusion</h3>
-										<p>Argent holds all Unix and Linux Rule Scripts on central W200x servers, so all your Rule Scripts
-											for all Unix and Linux platforms are centrally maintained – easy to find, easy to use, and easy to
-											backup. No more searching for the machine holding that critical but elusive script, and no more
-											confusion with 10 different versions of the same script on 10 different servers.</p>
-										<p>Argent gives you the choice of any – or all – of seven methods to access your Unix and Linux
-											servers.</p>
-										<h3>Script-based Flexibility – No Learning Curve</h3>
-										<p>Argent monitors all Unix and Linux platforms using Rule Scripts, providing Customers with
-											complete flexibility and ease of use. Argent provides a complete set of Rule Scripts for all
-											platforms covering all your common, day-to-day monitoring needs. And you can easily add to your
-											own scripts.</p>
-										<h3>Total Testing – Saving You Time</h3>
-										<p>Argent provides total testing for all scripts before they go live – even today most vendors have
-											no test facilities or test logs. Argent is designed for the real world, where you reside.</p>
-										<h3>Partial Rule List</h3>
-										<p>The following is a partial list of installed Rules. Out-of-the-box, Argent handles over 95% of
-											your day-to-day needs.</p>
-										<h4>CPU</h4>
-										<ul>
-											<li>CPU utilization</li>
-											<li>CPU trend analysis</li>
-											<li>1-minute load average</li>
-											<li>Excessive CPU by process</li>
-										</ul>
-										<h4>Disk</h4>
-										<ul>
-											<li>Free disk space</li>
-											<li>Used disk space</li>
-											<li>Swap space used</li>
-											<li>Available swap space</li>
-										</ul>
-										<h4>Memory</h4>
-										<ul>
-											<li>Free memory</li>
-											<li>Excessive memory usage by process</li>
-										</ul>
-										<h4>Network</h4>
-										<ul>
-											<li>Network bandwidth</li>
-											<li>Network traffic</li>
-											<li>Network issues</li>
-											<li>Network performance</li>
-											<li>Network connections</li>
-										</ul>
-										<h4>Processes</h4>
-										<ul>
-											<li>Oracle user processes</li>
-											<li>Running processes</li>
-											<li>Sleeping processes</li>
-											<li>Zombie processes</li>
-										</ul>
-										<h4>Databases</h4>
-										<ul>
-											<li>Oracle</li>
-											<li>MySQL</li>
-											<li>Sybase</li>
-										</ul>
-										<h4>System</h4>
-										<ul>
-											<li>TCP/IP Ping</li>
-											<li>DB2 port check</li>
-											<li>Oracle listener port check</li>
-											<li>SMTP port check</li>
-											<li>POP3 protocol verification</li>
-											<li>SMTP protocol verification</li>
-											<li>Server response time</li>
-											<li>Connected users</li>
-											<li>OS level</li>
-										</ul>
-										<h4>Daemons</h4>
-										<ul>
-											<li>lpsched</li>
-											<li>NFS biod</li>
-											<li>NFS lockd</li>
-											<li>NFS mountd</li>
-											<li>NFS nfsd</li>
-											<li>NFS statd</li>
-										</ul>
-										<h4>Miscellaneous</h4>
-										<ul>
-											<li>System log</li>
-											<li>Boot log</li>
-											<li>Cron log</li>
-											<li>FTP log</li>
-											<li>Sendmail log</li>
-											<li>Postfix log</li>
-											<li>NTP log</li>
-										</ul>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="iseries286">
-										<!-- Inner Content Start -->
-										<h3>iSeries/AS400 Monitoring</h3>
-										<p>The following is a partial list of installed Rules. Out-of-the-box, <strong>Argent handles over
-												95% of your day-to-day needs.</strong>
-											<br> Argent solves all your day-to-day problems — <strong>automatically.</strong>
-										</p>
-										<h4>CPU</h4>
-										<ul>
-											<li>CPU utilization</li>
-											<li>Job CPU usage</li>
-										</ul>
-										<h4>Disk</h4>
-										<ul>
-											<li style="text-align: left;">Free disk space</li>
-											<li style="text-align: left;">Used disk space</li>
-										</ul>
-										<h4>Jobs</h4>
-										<ul>
-											<li>Job not active</li>
-											<li>Job state</li>
-											<li>Job Queue status</li>
-											<li>Batch jobs ended with</li>
-											<li>Batch jobs ending</li>
-											<li>Batch jobs held</li>
-											<li>Batch jobs held on job</li>
-											<li>Batch jobs on held job</li>
-											<li>Batch jobs on unassigned</li>
-											<li>Batch jobs running</li>
-											<li>Batch jobs scheduled</li>
-											<li>Batch jobs waiting</li>
-										</ul>
-										<h4>Network</h4>
-										<p>Line/Control Unit/Device/Network Interface/Network Server status
-											<br> TCP stack not active
-										</p>
-										<h4>System</h4>
-										<ul>
-											<li>Oracle</li>
-											<li>Server response time</li>
-											<li>TCP/IP ping</li>
-											<li>Library size</li>
-											<li>Concurrent users</li>
-											<li>Messages in Message Queue</li>
-											<li>Output Queue status</li>
-											<li>Subsystem not active</li>
-											<li>System ASP utilization</li>
-											<li>System Pool size</li>
-											<li>System Pool status</li>
-											<li>Job Audit log</li>
-											<li>Journal Audit log</li>
-											<li>QHST log</li>
-											<li>Concurrent users</li>
-											<li>Additional storage too low</li>
-											<li>ASP system storage too low</li>
-											<li>Auxiliary storage lower limit too low</li>
-											<li>Current unprotected storage used too high</li>
-											<li>Main storage size too low</li>
-											<li>Main storage size of all pools too low</li>
-											<li>Maximum unprotected storage too high</li>
-											<li>Overflow storage too low</li>
-											<li>Total auxiliary storage too low</li>
-											<li>Users signed off</li>
-											<li>Users signed off with printer output</li>
-											<li>Users signed on</li>
-											<li>Users suspended due to group jobs</li>
-											<li>Users suspended due to SYSREQ</li>
-										</ul>
-										<!-- Inner Content End -->
-									</div>
-								</div>
-								<!-- Else OverView Start-->
-							</div>
-						</div>
-						<div class="tab-pane fade main-tab argent-aws" role="tabpanel" aria-labelledby="first288-tab">
-							<!-- Inner Tabs -->
-							<div class="inner-tabs">
-								<ul class="nav nav-tabs" id="myTab" role="tablist">
-									<li role="presentation" class="active"> <a class="active" href="#overview288"
-											aria-controls="overview288" role="tab" data-toggle="tab">Overview</a> </li>
-									<li role="presentation"> <a class="" href="#whats-monitored288" aria-controls="whats-monitored288"
-											role="tab" data-toggle="tab">What's Monitored</a> </li>
-								</ul>
-								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane fade show active " id="overview288">
-										<!-- Inner Content Start -->
-										<h2>
-											Argent AWS </h2>
-										<p>AWS is new, AWS is exciting, and AWS is grossly undermanaged.</p>
-										<p>While Amazon has done a superb job, an independent, agnostic, and even-handed outside auditor and
-											monitor is essential for all production AWS implementation.</p>
-										<p>This is precisely what the new Argent for AWS provides.</p>
-										<p>AWS is growing by the day, and it is getting more and more difficult to have a global view of
-											your entire AWS environment.</p>
-										<p>Argent for AWS provides the following baseline facilities:</p>
-										<ul>
-											<li>Ability To Monitor All Aspects Exposed By AWS Console And AWS SDK</li>
-											<li>Integration With Argent Console, The World’s Leading Alerting Console</li>
-											<li>Integration With Argent Predictor For Long-Term Trend Analysis (Not Just 14 Days)</li>
-											<li>Capable Of Native Monitoring of Windows And Linux Applications</li>
-											<li>Comprehensive S3 Monitoring</li>
-											<li>Complete Log Monitoring On S3, EBS Volume Or EC2 Instance Store Volume</li>
-										</ul>
-										<div class="Images-wrap">
-											<a href="javascript:;" data-fancybox="Argent AWS"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/agu_l_b.jpg" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/agu_l_b.jpg" alt="Image"> </a>
-											<a href="javascript:;" data-fancybox="Argent AWS"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/console_l_b-1.jpg" target="_blank">
-												<img src="https://www.argent.com/wp-content/uploads/2022/11/console_l_b-1.jpg" alt="Image"> </a>
-										</div>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="whats-monitored288">
-										<!-- Inner Content Start -->
-										<h4>EC2</h4>
-										<ul>
-											<li>Instance State</li>
-											<li>Instance Status</li>
-											<li>System Status</li>
-											<li>CPU</li>
-											<li>Disk Read Operations</li>
-											<li>Disk Write Operations</li>
-											<li>Disk Read Bytes</li>
-											<li>Disk Write Bytes</li>
-											<li>Network Incoming Bytes</li>
-											<li>Network Outgoing Bytes</li>
-											<li>Network Incoming Packets</li>
-											<li>Network Outgoing Packets</li>
-										</ul>
-										<h4>EC2 Credits</h4>
-										<ul>
-											<li>CPU Credit Usage</li>
-											<li>CPU Credit Balance</li>
-										</ul>
-										<h4>EC2 Operating System</h4>
-										<ul>
-											<li>Windows Performance Rules</li>
-											<li>Windows Service Rules</li>
-											<li>Windows Event Rules</li>
-											<li>Windows File Log Rules</li>
-											<li>Linux Script Rules</li>
-											<li>LINUX File Log Rules</li>
-										</ul>
-										<h4>Elastic Beanstalk Application</h4>
-										<ul>
-											<li>Health Status</li>
-											<li>Health Color</li>
-											<li>App Events</li>
-										</ul>
-										<h4>RDS</h4>
-										<p>Database Status
-											<br> RDS Events
-											<br> DB Connections
-											<br> Free Storage Space
-											<br> CPU
-											<br> Freeable Memory
-											<br> Swap Usage
-											<br> IO Disk Queue Depth
-											<br> IO Read IO OP
-											<br> IO Write IO OP
-											<br> IO Read Throughput
-											<br> IO Write Throughput
-											<br> Network Receive Throughput
-											<br> Network Transmit Throughput
-											<br> Replica Lag
-										</p>
-										<h4>RDS Credits</h4>
-										<ul>
-											<li>CPU Credit Usage</li>
-											<li>CPU Credit Balance</li>
-										</ul>
-										<h4>DynamoDB</h4>
-										<ul>
-											<li>Table Row Count</li>
-											<li>Table Size</li>
-											<li>Conditional Check Failed Requests</li>
-											<li>Consumed Read Capacity Units</li>
-											<li>Consumed Write Capacity Units</li>
-											<li>Provisioned Read Capacity Units</li>
-											<li>Provisioned Write Capacity Units</li>
-											<li>IO Read Throttle Events</li>
-											<li>Query Returned Item Count</li>
-											<li>Stream Returned Bytes</li>
-											<li>Stream Returned Records Count</li>
-											<li>IO Successful Request Latency</li>
-											<li>IO Successful Request Count</li>
-											<li>System Errors</li>
-											<li>IO Throttled Requests</li>
-											<li>User Errors</li>
-											<li>IO Write Throttle Events</li>
-										</ul>
-										<h4>S3</h4>
-										<ul>
-											<li>S3 Object</li>
-											<li>S3 Log</li>
-											<li>Bucket Size</li>
-											<li>Object Count</li>
-										</ul>
-										<h4>CloudWatch</h4>
-										<ul>
-											<li>All CloudWatch Metrics</li>
-										</ul>
-										<!-- Inner Content End -->
-									</div>
-								</div>
-								<!-- Else OverView Start-->
-							</div>
-						</div>
-						<div class="tab-pane fade main-tab argent-console" role="tabpanel" aria-labelledby="first290-tab">
-							<!-- Inner Tabs -->
-							<div class="inner-tabs">
-								<ul class="nav nav-tabs" id="myTab" role="tablist">
-									<li role="presentation" class="active"> <a class="active" href="#overview290"
-											aria-controls="overview290" role="tab" data-toggle="tab">Overview </a> </li>
-									<li role="presentation"> <a class="" href="#alerts290" aria-controls="alerts290" role="tab"
-											data-toggle="tab">Alerts</a> </li>
-									<li role="presentation"> <a class="" href="#supermaps290" aria-controls="supermaps290" role="tab"
-											data-toggle="tab">SuperMaps</a> </li>
-								</ul>
-								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane fade show active " id="overview290">
-										<!-- Inner Content Start -->
-										<h2>
-											Argent Console </h2>
-										<p>Argent Console is the world’s leading alerting console.</p>
-										<p>With Argent Console, Alerts can be consolidated from customer applications, third-party products,
-											as well as from all Argent products.</p>
-										<p>All Alerts and alarms from customer applications and third-party products can be consolidated
-											using Argent’s powerful ActiveX and XML interfaces. Any number of third party packages can send
-											Alerts directly to the console as well.</p>
-										<p>Argent Console is the perfect solution for a customer’s central console. Argent Console allows
-											tracking of and creates Alerts about all events as they occur on the network.</p>
-										<p>Enterprise Application View</p>
-										<p>What Argent provides today is an Enterprise View of Customer’s critical applications. Rather than
-											just monitoring the CPU load in isolation, Argent integrates this single metric into a custom
-											weighted scheme.</p>
-										<p>For example, take an Exchange 2007 environment running on four servers.</p>
-										<p>If one server fails, then Argent reports the Exchange environment has been degraded by 20% and
-											sends out one set of Argent Alerts.</p>
-										<p>If two servers fail, Argent Enterprise View reports a 50% degradation and send out additional
-											Argent Alerts.</p>
-										<p>If three servers fail, then Argent Enterprise View will report a 85% degradation.</p>
-										<p>Customers can adjust the parameters to meet their needs. The impact of a single event can be
-											entirely different than that of multiple events.</p>
-										<p>Argent Enterprise View looks at all of the application’s critical components. It does not matter
-											if the various components are distributed throughout the world.</p>
-										<p>Argent monitors all aspects of your critical applications.</p>
-										<div class="Images-wrap">
-											<a href="javascript:;" data-fancybox="Argent Console"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/aev1.jpg" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/aev1.jpg" alt="Image"> </a>
-										</div>
-										<h3>Unprecedented SNMP Support</h3>
-										<p>Argent Console provides a new level of support to receive alarms and Alerts from any SNMP device
-											and record it on the central Argent Console.</p>
-										<h3>Unlimited Alerting And Alert Escalation</h3>
-										<p>Argent Console has long been known for its powerful array of Alerts such as Email Alerts,
-											Alphanumeric Pager Alerts, Network Message Alerts, SMS Alerts, SQL Alerts (that fire customer
-											created SQL scripts as an Alert), and Service Alerts (to stop and restart Windows Services).</p>
-										<p>These Alerts can be used with pre-existing applications — the alarm is simply sent to Argent
-											Console, the customer specifies which alert is to be fired and Argent does the rest.</p>
-										<p>Escalating Alerts allow customers the ability to specify a detailed alerting sequence for any
-											particular issue. For instance, if employee X is alerted via email and does not respond, then
-											employee Z will be alerted via pager, etc. Customers have complete control over escalation details
-											including who will be notified and how the alert will be sent.</p>
-										<h3>Ease Of Use</h3>
-										<p>The Total Support Interface, part of Argent Console, enables the sending of any customized Alerts
-											directly to the console.</p>
-										<p>Because of the universal nature of Argent Console, the ActiveX interface allows the sending of
-											alarms and Alerts from literally any language, from PERL to Visual Basic, to C++.</p>
-										<p>The Total Support Interface provides complete code samples, technical notes, and engineering
-											notes and an SDK.</p>
-										<h3>Automation</h3>
-										<p>Argent introduces a powerful new automatic report distribution facility to allow the receiving of
-											specific reports that are considered important to the customer. Reports can be scheduled of the
-											customer’s top-10 issues or weekly reports of the top-10 problematic servers. And of course, the
-											revolutionary Argent calendaring features, popular in Argent AT and Argent Job Scheduler, are
-											fully supported.</p>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="alerts290">
-										<!-- Inner Content Start -->
-										<p>Argent divides Alerts into two categories, <strong>Notification</strong> and
-											<strong>Correction</strong> Alerts.</p>
-										<p>The following table lists some of the installed Alerts.</p>
-										<h4>Notification Alerts</h4>
-										<ul>
-											<li>Alphanumeric Pager</li>
-											<li>Email</li>
-											<li>Network Message</li>
-											<li>SMS</li>
-											<li>System Alarm</li>
-											<li>Third-Party Help Desk</li>
-											<li>Twitter</li>
-											<li>Unix Action Script</li>
-											<li>Windows Event Log</li>
-										</ul>
-										<h4>Correction Alerts</h4>
-										<ul>
-											<li>iSeries Commands</li>
-											<li>ODBC/SQL Query</li>
-											<li>PowerShell Action Scripts</li>
-											<li>Service Start/Stop/Restart</li>
-											<li>SNMP</li>
-											<li>System Commands</li>
-											<li>System Reboot</li>
-											<li>Linux/Unix Action Scripts</li>
-											<li>WMI Action Scripts</li>
-										</ul>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="supermaps290">
-										<!-- Inner Content Start -->
-										<p>SuperMaps lets you quickly see the Alerts for your entire enterprise</p>
-										<p>Any image can be used as a SuperMap — geographical maps, network diagrams, floor plans or a even
-											a digital photo of a server rack</p>
-										<p>SuperMaps represents Alerts as dots, varying from red, orange, yellow, or green — all
-											configurable of course</p>
-										<p>Individual SuperMaps can also be hot-linked together, allowing you to effectively zoom in from
-											macro to micro within a few mouse clicks</p>
-										<p>SuperMaps can also be viewed and shared using a web browser through Argent’s revolutionary Web
-											2.0 dashboard — Argent Commander</p>
-										<p><img decoding="async" loading="lazy"
-												src="https://www.argent.com/wp-content/uploads/2022/11/supermaps.png" alt="" width="949"
-												height="307" class="alignnone size-full wp-image-683"
-												srcset="https://www.argent.com/wp-content/uploads/2022/11/supermaps.png 949w, https://www.argent.com/wp-content/uploads/2022/11/supermaps-300x97.png 300w, https://www.argent.com/wp-content/uploads/2022/11/supermaps-768x248.png 768w"
-												sizes="(max-width: 949px) 100vw, 949px"></p>
-										<p>To discuss SuperMaps with an Argent professional, please email
-											<br> <a href="mailto:SuperMaps@Argent.com">SuperMaps@Argent.com</a>
-										</p>
-										<!-- Inner Content End -->
-									</div>
-								</div>
-								<!-- Else OverView Start-->
-							</div>
-						</div>
-						<div class="tab-pane fade main-tab argent-sharepoint" role="tabpanel" aria-labelledby="first292-tab">
-							<!-- Inner Tabs -->
-							<div class="inner-tabs">
-								<ul class="nav nav-tabs" id="myTab" role="tablist">
-									<li role="presentation" class="active"> <a class="active" href="#overview292"
-											aria-controls="overview292" role="tab" data-toggle="tab">Overview</a> </li>
-									<li role="presentation"> <a class="" href="#instant-best-practices292"
-											aria-controls="instant-best-practices292" role="tab" data-toggle="tab">Instant Best Practices</a>
-									</li>
-									<li role="presentation"> <a class="" href="#whats-monitored292" aria-controls="whats-monitored292"
-											role="tab" data-toggle="tab">What's Monitored</a> </li>
-								</ul>
-								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane fade show active " id="overview292">
-										<!-- Inner Content Start -->
-										<h2>
-											Argent for SharePoint </h2>
-										<div>
-											<div>All SharePoint environments need complete automation and Instant Best Practices.</div>
-											<div>With all the layoffs, there are fewer people to do more work – this is why Argent’s unique
-												<strong>Instant Best Practices</strong> is essential – who has the time to read White Papers?
-											</div>
-											<div>Keep your worldwide SharePoint environment running smoothly with Argent for SharePoint –
-												Instant Best Practices, Automation, Crystal Reports, Management, and Monitoring all in one
-												fully-integrated solution.</div>
-											<div>If you’re serious about SharePoint, you’ll need a serious solution with Instant Best
-												Practices.</div>
-										</div>
-										<p>For a live demo site, visit <a href="http://help.argent.com/#e_sp"
-												target="_blank">http://help.argent.com/#e_sp</a> </p>
-										<div class="Images-wrap">
-											<a href="javascript:;" data-fancybox="Argent for SharePoint"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/sp_l_b.jpg" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/sp_l_b.jpg" alt="Image"> </a>
-											<a href="javascript:;" data-fancybox="Argent for SharePoint"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/console_l_b-1.jpg" target="_blank">
-												<img src="https://www.argent.com/wp-content/uploads/2022/11/console_l_b-1.jpg" alt="Image"> </a>
-										</div>
-										<div>
-											<h3>Details</h3>
-											<div>Argent for SharePoint monitors and reports on SharePoint baselines, such as crawling
-												properties, SSPs, fat documents, web applications, and site counts.</div>
-											<div>Argent for SharePoint comes with pre-defined reports that can be automatically emailed every
-												morning to show the actual health and performance of SharePoint.</div>
-											<h3>Understanding SharePoint Monitoring</h3>
-											<div>The do’s and dont’s of monitoring SharePoint are readily accessible as a free Argent White
-												Paper</div>
-										</div>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="instant-best-practices292">
-										<!-- Inner Content Start -->
-										<h3>What are Instant Best Practices?</h3>
-										<p>Instant Best Practices are Argent’s unique technology that combines the best expert knowledge
-											into one fully-integrated solution.</p>
-										<p>Until Instant Best Practices, you’d have to read tedious White Papers, download and install
-											quirky scripts, install so-called “Management” packs, find a slew of vendors’ add-ons, etc, etc,
-											etc.</p>
-										<p>All these tedious chores took you time and not to mention all the finger pointing from different
-											vendors.</p>
-										<p>Rather than being a manager and looking to move up the food chain, you were stuck wasting your
-											time doing the donkey work of trying to make yet-another badly written script work for your
-											environment.</p>
-										<h4>Argent Instant Best Practices – Ready For Tomorrow</h4>
-										<p>With Argent’s unique technology, hassles are a thing of the past.</p>
-										<p>There are a lot of critical variables, thresholds, metrics and components you need to be on top
-											of.</p>
-										<p>But there’s the rub – <strong>what variables should you monitor?</strong></p>
-										<p>Even after you’ve read all the dozens of Technical Papers, Tuning Guides, downloaded all the
-											scripts, you now have to decide what values make sense.</p>
-										<p>With Argent’s Instant Best Practices, all the donkey work is done for you – Instant Best
-											Practices has all the critical variables and values defined.</p>
-										<p>In one click you can have Argent Instant Best Practices working for you.</p>
-										<!-- Inner Content End -->
-									</div>
-									<div role="tabpanel" class="tab-pane fade " id="whats-monitored292">
-										<!-- Inner Content Start -->
-										<p>The following is a partial list of installed Rules. Out-of-the-box,<strong> Argent handles over
-												95% of your day-to-day needs.</strong>
-											<br> Argent solves all your day-to-day problems —<strong> automatically.</strong>
-										</p>
-										<h4>MOSS Configuration</h4>
-										<ul>
-											<li>Excessive Keywords Per Site</li>
-											<li>Excessive Managed Properties</li>
-											<li>Excessive SSPs</li>
-											<li>Excessive User Profiles</li>
-										</ul>
-										<h4>MOSS Search</h4>
-										<ul>
-											<li>Deep Crawls</li>
-											<li>Excessive Crawls Per SSP</li>
-										</ul>
-										<h4>SharePoint Configuration</h4>
-										<ul>
-											<li>Excessive Web Applications</li>
-										</ul>
-										<h4>SharePoint File System</h4>
-										<ul>
-											<li>Excessive Fat Documents</li>
-											<li>Excessive Flat Folders</li>
-										</ul>
-										<h4>SharePoint Sites</h4>
-										<ul>
-											<li>Excessive Number of Subsites</li>
-											<li>Excessive Number of Sites</li>
-											<li>Overloaded Web Sites</li>
-										</ul>
-										<h4>Connectivity</h4>
-										<ul>
-											<li>Windows NetRemote TOD API Check</li>
-											<li>TCP/IP Ping</li>
-										</ul>
-										<h4>Performance</h4>
-										<ul>
-											<li>CPU Utilization</li>
-											<li>Free Disk Space</li>
-											<li>Memory Utilization</li>
-											<li>Network Utilization</li>
-											<li>SharePoint Search Query Count</li>
-										</ul>
-										<h4>PowerShell Management</h4>
-										<ul>
-											<li>Active Directory Disabled Accounts</li>
-											<li>Unauthorized Network Shares</li>
-										</ul>
-										<h4>Services</h4>
-										<ul>
-											<li>SharePoint Search Service</li>
-											<li>SharePoint Timer Service</li>
-											<li>SharePoint Admin Service</li>
-											<li>SharePoint Writer Service</li>
-										</ul>
-										<!-- Inner Content End -->
-									</div>
-								</div>
-								<!-- Else OverView Start-->
-							</div>
-						</div>
-						<div class="tab-pane fade main-tab argent-exchange" role="tabpanel" aria-labelledby="first294-tab">
+						<div class="tab-pane fade show active" id="first294" role="tabpanel" aria-labelledby="first294-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1209,7 +469,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-java" role="tabpanel" aria-labelledby="first298-tab">
+						<div class="tab-pane fade show active" id="first298" role="tabpanel" aria-labelledby="first298-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1364,7 +624,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-snmp" role="tabpanel" aria-labelledby="first356-tab">
+						<div class="tab-pane fade show active" id="first356" role="tabpanel" aria-labelledby="first356-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1501,7 +761,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-storage" role="tabpanel" aria-labelledby="first397-tab">
+						<div class="tab-pane fade show active" id="first397" role="tabpanel" aria-labelledby="first397-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1580,7 +840,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-xenapp" role="tabpanel" aria-labelledby="first399-tab">
+						<div class="tab-pane fade show active" id="first399" role="tabpanel" aria-labelledby="first399-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1807,7 +1067,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-active-directory" role="tabpanel" aria-labelledby="first666-tab">
+						<div class="tab-pane fade show active" id="first666" role="tabpanel" aria-labelledby="first666-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1955,7 +1215,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-sap" role="tabpanel" aria-labelledby="first690-tab">
+						<div class="tab-pane fade show active" id="first690" role="tabpanel" aria-labelledby="first690-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -2067,7 +1327,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab batch-job-automation" role="tabpanel" aria-labelledby="first315-tab">
+						<div class="tab-pane fade show active" id="first315" role="tabpanel" aria-labelledby="first315-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -2161,7 +1421,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-worldview" role="tabpanel" aria-labelledby="first339-tab">
+						<div class="tab-pane fade show active" id="first339" role="tabpanel" aria-labelledby="first339-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -2194,7 +1454,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-sentinel" role="tabpanel" aria-labelledby="first403-tab">
+						<div class="tab-pane fade show active" id="first403" role="tabpanel" aria-labelledby="first403-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -2257,7 +1517,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-sentry-ultra" role="tabpanel" aria-labelledby="first413-tab">
+						<div class="tab-pane fade show active" id="first413" role="tabpanel" aria-labelledby="first413-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -2357,7 +1617,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-compliance" role="tabpanel" aria-labelledby="first416-tab">
+						<div class="tab-pane fade show active" id="first416" role="tabpanel" aria-labelledby="first416-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -2447,7 +1707,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-security" role="tabpanel" aria-labelledby="first429-tab">
+						<div class="tab-pane fade show active" id="first429" role="tabpanel" aria-labelledby="first429-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -2534,7 +1794,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-hyper-v" role="tabpanel" aria-labelledby="first434-tab">
+						<div class="tab-pane fade show active" id="first434" role="tabpanel" aria-labelledby="first434-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -2694,7 +1954,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-vmware" role="tabpanel" aria-labelledby="first437-tab">
+						<div class="tab-pane fade show active" id="first437" role="tabpanel" aria-labelledby="first437-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -2867,7 +2127,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-xenserver" role="tabpanel" aria-labelledby="first439-tab">
+						<div class="tab-pane fade show active" id="first439" role="tabpanel" aria-labelledby="first439-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -2999,7 +2259,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-boardroom" role="tabpanel" aria-labelledby="first442-tab">
+						<div class="tab-pane fade show active" id="first442" role="tabpanel" aria-labelledby="first442-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -3030,7 +2290,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-commander" role="tabpanel" aria-labelledby="first448-tab">
+						<div class="tab-pane fade show active" id="first448" role="tabpanel" aria-labelledby="first448-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -3067,7 +2327,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-global-manager" role="tabpanel" aria-labelledby="first454-tab">
+						<div class="tab-pane fade show active" id="first454" role="tabpanel" aria-labelledby="first454-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -3110,7 +2370,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-reports" role="tabpanel" aria-labelledby="first460-tab">
+						<div class="tab-pane fade show active" id="first460" role="tabpanel" aria-labelledby="first460-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<h2>
@@ -3143,7 +2403,7 @@
 								<!-- Else OverView End-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-mysql" role="tabpanel" aria-labelledby="first467-tab">
+						<div class="tab-pane fade show active" id="first467" role="tabpanel" aria-labelledby="first467-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -3245,7 +2505,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-oracle" role="tabpanel" aria-labelledby="first471-tab">
+						<div class="tab-pane fade show active" id="first471" role="tabpanel" aria-labelledby="first471-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -3370,7 +2630,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-sql-server" role="tabpanel" aria-labelledby="first476-tab">
+						<div class="tab-pane fade show active" id="first476" role="tabpanel" aria-labelledby="first476-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -3523,7 +2783,7 @@
 								<!-- Else OverView Start-->
 							</div>
 						</div>
-						<div class="tab-pane fade main-tab argent-for-sybase" role="tabpanel" aria-labelledby="first478-tab">
+						<div class="tab-pane fade show active" id="first478" role="tabpanel" aria-labelledby="first478-tab">
 							<!-- Inner Tabs -->
 							<div class="inner-tabs">
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -3687,7 +2947,7 @@
 			</div>
 		</section>
 	</main>
-	<?php include './layout/footer.php'; ?>
+	<?php include __DIR__.'/layout/footer.php'; ?>
 </body>
 
 </html>

@@ -71,7 +71,39 @@
 
 					<!-- tab-content -->
 					<div class="tab-content" id="myTabContent">
-            __PLACE__HERE__
+          <div class="tab-pane fade show active" id="first460" role="tabpanel" aria-labelledby="first460-tab">
+							<!-- Inner Tabs -->
+							<div class="inner-tabs">
+								<h2>
+									Argent Reports </h2>
+								<p>Argent has used industry-standard Crystal Reports in all Argent products for over 15 years</p>
+								<p>To help customers better leverage Web 2.0 in their use of Argent, Argent has created a new
+									customizable reporting product, which we’ve dubbed “Argent Reports” (very imaginative, you say)</p>
+								<p>Argent Reports is a clean and crisp product you can use to instantly create your own reports</p>
+								<p>You can see a read-only version of Argent Reports at <a href="http://ArgentReports.Argent.com"
+										target="_blank" rel="noopener">http://ArgentReports.Argent.com</a></p>
+								<p>Just think of it — a few clicks on a simple Web 2.0 template and you’re done</p>
+								<p>An easy-to-use but exceptionally powerful scheduler is built in so you can create your own Reports
+									and Report Groups in minutes — no hassle, just automated productivity</p>
+								<p>For a live demo site, visit <a href="http://ArgentReports.Argent.com"
+										target="_blank">http://ArgentReports.Argent.com</a> </p>
+								<div class="Images-wrap">
+									<a href="javascript:;" data-fancybox="Argent Reports"
+										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports4_large.jpg" target="_blank">
+										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports4_large.jpg" alt="Image"> </a>
+									<a href="javascript:;" data-fancybox="Argent Reports"
+										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports3_large.jpg" target="_blank">
+										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports3_large.jpg" alt="Image"> </a>
+									<a href="javascript:;" data-fancybox="Argent Reports"
+										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports2_large_b.jpg" target="_blank">
+										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports2_large_b.jpg" alt="Image"> </a>
+									<a href="javascript:;" data-fancybox="Argent Reports"
+										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports1_large_b.jpg" target="_blank">
+										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports1_large_b.jpg" alt="Image"> </a>
+								</div>
+								<!-- Else OverView End-->
+							</div>
+						</div>
           </div>
 				</div>
 			</div>

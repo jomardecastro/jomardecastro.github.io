@@ -53,114 +53,114 @@
                     $jsonData = '[
                         {
                             "title":"Argent White Paper \n Monitor CCTVs In Under Four Hours",
-                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf",
+                            "link":"assets/pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf",
                             "free":true
                         },
                         {
                             "title":"Argent White Paper \n Monitoring SSL Certificates",
-                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf",
+                            "link":"assets/pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf",
                             "free":true
                         },
                         {
                             "title":"Argent White Paper \n Keeping All Kids Safe",
-                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_FREE_FEATURE_White%20Paper_Keeping_All_Kids_Safe.pdf",
+                            "link":"assets/pdf/Argent_Omega_FREE_FEATURE_White%20Paper_Keeping_All_Kids_Safe.pdf",
                             "free":true
                         },
                         {
                             "title":"Argent White Paper \n SIEM-Complete Features \n And Benefits",
-                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf"
+                            "link":"assets/pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf"
                         },
                         {
                             "title":"Argent White Paper \n Stoppings Ransomware Permanently",
-                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf"
+                            "link":"assets/pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf"
                         },
                         {
                             "title":"Argent White Paper \n Argent Omega Benefits \n Over Argent AT",
-                            "link":"https://jomardecastro.github.io/argent-pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf"
+                            "link":"assets/pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf"
                         },
                         {
                             "title":"Argent SIEM-Complete Features And Benefits",
-                            "link":"https://www.argent.com/wp-content/uploads/2023/05/Argent_SIEM-Complete_Features_and_Benefits.pdf"
+                            "link":"assets/pdf/Argent_SIEM-Complete_Features_and_Benefits.pdf"
                         },
                         {
                             "title":"Argent SIEM-Complete Facilities",
-                            "link":"https://www.argent.com/wp-content/uploads/2023/05/Argent_SIEM-Complete_Facilities.pdf"
+                            "link":"assets/pdf/Argent_SIEM-Complete_Facilities.pdf"
                         },
                         {
                             "title": "SCOM VMware",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT___Comparison_Paper_SCOM_VMware_E.pdf"
+                            "link": "assets/pdf/ARGENT___Comparison_Paper_SCOM_VMware_E.pdf"
                         },
                         {
                             "title": "SCOM SharePoint",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT___Comparison_Paper_SCOM_SharePoint_E.pdf"
+                            "link": "assets/pdf/ARGENT___Comparison_Paper_SCOM_SharePoint_E.pdf"
                         },
                         {
                             "title": "Stopping Ransomware Permanently",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT___Stopping_Ransomware_Permanently_G.pdf"
+                            "link": "assets/pdf/ARGENT___Stopping_Ransomware_Permanently_G.pdf"
                         },
                         {
                             "title": "Automatically Monitor CCTV Cameras In Under Four Hours",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER_AUTOMATICALLY_MONITOR_CCTV_CAMERAS_IN_UNDER_FOUR_HOURS_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER_AUTOMATICALLY_MONITOR_CCTV_CAMERAS_IN_UNDER_FOUR_HOURS_B.pdf"
                         },
                         {
                             "title": "AWS or Azure: Which is better for you?",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER___AWS_Or_Azure_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER___AWS_Or_Azure_B.pdf"
                         },
                         {
                             "title": "MaaS and CaaS: Monitoring and Compliance as a Service",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER_MaaS_CaaS_D.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER_MaaS_CaaS_D.pdf"
                         },
                         {
                             "title": "Ten Secrets of Job Scheduling",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__TEN_SECRETS_OF_JOB_SCHEDULING_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__TEN_SECRETS_OF_JOB_SCHEDULING_B.pdf"
                         },
                         {
                             "title": "How To Pass Your CJIS Audit",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__HOW_TO_PASS_YOUR_CJIS_AUDIT_C.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__HOW_TO_PASS_YOUR_CJIS_AUDIT_C.pdf"
                         },
                         {
                             "title": "Stopping Russian and Chinese Hackers",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__STOPPING_RUSSIAN_AND_CHINESE_HACKERS_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__STOPPING_RUSSIAN_AND_CHINESE_HACKERS_B.pdf"
                         },
                         {
                             "title": "All You Need To Know About GDPR",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__ALL_YOU_NEED_TO_KNOW_ABOUT_GDPR_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__ALL_YOU_NEED_TO_KNOW_ABOUT_GDPR_B.pdf"
                         },
                         {
                             "title": "AWS – Basic Concepts for Argent Customers",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__AWS_BASIC_CONCEPTS_FOR_ARGENT_CUSTOMERS_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__AWS_BASIC_CONCEPTS_FOR_ARGENT_CUSTOMERS_B.pdf"
                         },
                         {
                             "title": "AWS – Five Pitfalls of AWS",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/Network_Testing_Labs__Five_AWS_Pitfalls_B.pdf"
+                            "link": "assets/pdf/Network_Testing_Labs__Five_AWS_Pitfalls_B.pdf"
                         },
                         {
                             "title": "AWS – Seven Secrets of AWS Security",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__AWS_SEVEN_SECRETS_OF_AWS_SECURITY_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__AWS_SEVEN_SECRETS_OF_AWS_SECURITY_B.pdf"
                         },
                         {
                             "title": "AWS – What Makes Argent for AWS Unique",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__AWS_WHAT_MAKES_ARGENT_FOR_AWS_UNIQUE_B.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__AWS_WHAT_MAKES_ARGENT_FOR_AWS_UNIQUE_B.pdf"
                         },
                         {
                             "title": "Argent Product Portfolio",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/Argent_Product_Portfolio_B.pdf"
+                            "link": "assets/pdf/Argent_Product_Portfolio_B.pdf"
                         },
                         {
                             "title": "Argent Job Scheduler Features and Benefits",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER_AUTOMATE_OR_DIE_C.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER_AUTOMATE_OR_DIE_C.pdf"
                         },
                         {
                             "title": "Automate Or Die",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER_AUTOMATE_OR_DIE_C.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER_AUTOMATE_OR_DIE_C.pdf"
                         },
                         {
                             "title": "Monitoring 2,000 to 25,000 Servers with Argent",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__MONITORING_2_000_TO_25_000_SERVERS.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__MONITORING_2_000_TO_25_000_SERVERS.pdf"
                         },
                         {
                             "title": "Why Law Firms Use Argent",
-                            "link": "https://www.argent.com/wp-content/uploads/2022/11/ARGENT_WHITE_PAPER__WHY_LAW_FIRMS_USE_ARGENT_E.pdf"
+                            "link": "assets/pdf/ARGENT_WHITE_PAPER__WHY_LAW_FIRMS_USE_ARGENT_E.pdf"
                         }
                     ]';
                     $data = json_decode($jsonData, true);

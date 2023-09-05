@@ -1031,7 +1031,7 @@ form.submitting .wpcf7-spinner {
 }
 .main-wrap .accordions .card-body .nav-tabs .nav-item .nav-link:hover,
 .main-wrap .accordions .card-body .nav-tabs .nav-item .nav-link.active {
-  color: #4788C7;
+  color: #4788C7 !important;
 }
 .main-wrap .accordions .card-body .nav-tabs .nav-item:not(:last-child){
   margin-bottom: 10px;

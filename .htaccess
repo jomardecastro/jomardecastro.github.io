@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Rewrite links within the /product directory
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^product/([^/]+)/?$ /product/$1.php [L]
+
+# Leave other URLs unchanged

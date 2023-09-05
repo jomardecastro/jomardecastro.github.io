@@ -7,23 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <title>Home</title>
-    <script src="assets/scripts/jquiry.js"></script>
-    <script src="assets/scripts/swiper.js"></script>
-    <script src="assets/scripts/scripts.js"></script>
-    <link rel="stylesheet" href="assets/css/pages.css" />
+    <script src="/assets/scripts/jquiry.js"></script>
+    <script src="/assets/scripts/swiper.js"></script>
+    <script src="/assets/scripts/scripts.js"></script>
+    <link rel="stylesheet" href="/assets/css/pages.css" />
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
     id='jquery-cdn-js'></script>
   <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
     id='bootstrap.min.js-cdn-js'></script>
   <link rel='stylesheet' id='bootstrap.min-css'
     href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
-  <link rel="stylesheet" href="assets/css/pages.css" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/pages.css" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
       id='jquery-cdn-js'></script>
-  <link rel="icon" href="../assets/images/fav.png" sizes="32x32" />
-  <link rel="icon" href="../assets/images/fav.png" sizes="192x192" />
-  <link rel="apple-touch-icon" href="../assets/images/fav.png" />
+  <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
+  <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/assets/images/fav.png" />
     
 </head>
 
@@ -142,7 +142,7 @@
             class="bg-[#f6fcfd] py-4 px-6 lg:px-0 block">
             <div class="container grid lg:grid-cols-2 items-center gap-[30px]">
                 <div class="lg:order-last">
-                    <img src="assets/images/hero-sec.webp" width="645" height="429" alt="Hero" loading="lazy">
+                    <img src="/assets/images/hero-sec.webp" width="645" height="429" alt="Hero" loading="lazy">
                 </div>
                 <div class="content flex flex-col gap-2 lg:gap-[22px] px-3 lg:px-0">
 
@@ -196,7 +196,7 @@
                         class="flex items-center gap-3 pl-[30px] text-[#1565d8] text-base lg:text-3xl underline font-semibold">
                         Click
                         To
-                        Download <img src="assets/images/right-arrow.svg" width="23" height="23" alt="Icon">
+                        Download <img src="/assets/images/right-arrow.svg" width="23" height="23" alt="Icon">
                     </span>
                 </div>
 
@@ -213,7 +213,7 @@
                 <div class="grid lg:grid-cols-3 gap-4">
                     <!-- item  -->
                     <a href="#" class="card-item downloadLink"
-                        data-file="assets/pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf">
+                        data-file="/assets/pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf">
                         <div class="new-badge-1">
                             Free Product
                         </div>
@@ -227,16 +227,16 @@
                             </h3>
                         </div>
                         <div class="flex items-center justify-between pt-3">
-                            <img src="assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
+                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
                             <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="assets/images/download.svg" width="14" height="14" alt="download">
+                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
                                 Download
                             </span>
                         </div>
                     </a>
                     <!-- item  -->
                     <a href="#" class="card-item downloadLink"
-                        data-file="assets/pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf">
+                        data-file="/assets/pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf">
                         <div class="new-badge-1">
                             Free Product
                         </div>
@@ -248,15 +248,15 @@
                             </h3>
                         </div>
                         <div class="flex items-center justify-between pt-3">
-                            <img src="assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
+                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
                             <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="assets/images/download.svg" width="14" height="14" alt="download">
+                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
                                 Download
                             </span>
                         </div>
                     </a>
                     <!-- item  -->
-                    <a href="#" data-file="assets/pdf/Argent_Omega_FREE_FEATURE_White Paper_Keeping_All_Kids_Safe.pdf"
+                    <a href="#" data-file="/assets/pdf/Argent_Omega_FREE_FEATURE_White Paper_Keeping_All_Kids_Safe.pdf"
                         class="card-item downloadLink">
                         <div class="new-badge-1">
                             Free Product
@@ -269,16 +269,16 @@
                             </h3>
                         </div>
                         <div class="flex items-center justify-between pt-3">
-                            <img src="assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
+                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
                             <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="assets/images/download.svg" width="14" height="14" alt="download">
+                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
                                 Download
                             </span>
                         </div>
                     </a>
                     <!-- item  -->
                     <a href="#" class="card-item downloadLink"
-                        data-file="assets/pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf">
+                        data-file="/assets/pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf">
                         <div class="flex flex-col gap-2 pt-8">
                             <h3
                                 class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
@@ -289,16 +289,16 @@
                             </h3>
                         </div>
                         <div class="flex items-center justify-between pt-3">
-                            <img src="assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
+                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
                             <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="assets/images/download.svg" width="14" height="14" alt="download">
+                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
                                 Download
                             </span>
                         </div>
                     </a>
                     <!-- item  -->
                     <a href="#" class="card-item downloadLink"
-                        data-file="assets/pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf">
+                        data-file="/assets/pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf">
                         <div class="flex flex-col gap-2 pt-8">
                             <h3
                                 class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
@@ -307,16 +307,16 @@
                             </h3>
                         </div>
                         <div class="flex items-center justify-between pt-3">
-                            <img src="assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
+                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
                             <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="assets/images/download.svg" width="14" height="14" alt="download">
+                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
                                 Download
                             </span>
                         </div>
                     </a>
                     <!-- item  -->
                     <a href="#" class="card-item downloadLink"
-                        data-file="assets/pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf">
+                        data-file="/assets/pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf">
                         <div class="flex flex-col gap-2 pt-8">
                             <h3
                                 class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
@@ -326,9 +326,9 @@
                             </h3>
                         </div>
                         <div class="flex items-center justify-between pt-3">
-                            <img src="assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
+                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
                             <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="assets/images/download.svg" width="14" height="14" alt="download">
+                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
                                 Download
                             </span>
                         </div>

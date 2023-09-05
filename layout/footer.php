@@ -1,7 +1,7 @@
 <footer class="bg-[#f6fcfd] pt-[54px] pb-4">
     <div class="flex flex-col container items-center">
         <a href="#" class="">
-            <img src="assets/images/footer-logo.png" width="184" height="20" alt="logo">
+            <img src="/assets/images/footer-logo.png" width="184" height="20" alt="logo">
             <span class="sr-only">Logo</span>
         </a>
         <div class="grid lg:grid-cols-3 py-6 lg:pt-[100px] lg:pb-[66px] w-full gap-4">
@@ -12,7 +12,7 @@
                 </h4>
                 <ul class="flex items-center flex-col gap-1.5">
                     <li class="">
-                        <a href="contact-us.php"
+                        <a href="/contact-us.php"
                             class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">Contact
                             Us</a>
                     </li>
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="argents-unique-architecture.php"
+                        <a href="/argents-unique-architecture.php"
                             class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
                             Argent’s Unique Architecture
                         </a>
@@ -51,7 +51,7 @@
                 </h4>
                 <ul class="flex items-center flex-col gap-1.5">
                     <li class="">
-                        <a href="privacy-policy.php"
+                        <a href="/privacy-policy.php"
                             class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
                             Privacy Policy
                         </a>

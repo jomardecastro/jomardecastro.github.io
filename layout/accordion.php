@@ -1,5 +1,5 @@
 <?php 
-$system_links = ["/products2.php","/product/argent-omega.php","/product/argent-guardian.php","/product/argent-aws.php","/product/argent-console.php","/product/argent-sharepoint.php","/product/argent-exchange.php","/product/argent-for-java.php","/product/argent-for-snmp.php","/product/argent-for-storage.php","/product/argent-for-xenapp.php","/product/argent-for-active-directory.php","/product/argent-for-sap.php"];
+$system_links = ["/products.php","/product/argent-omega.php","/product/argent-guardian.php","/product/argent-aws.php","/product/argent-console.php","/product/argent-sharepoint.php","/product/argent-exchange.php","/product/argent-for-java.php","/product/argent-for-snmp.php","/product/argent-for-storage.php","/product/argent-for-xenapp.php","/product/argent-for-active-directory.php","/product/argent-for-sap.php"];
 $batch_links = ["/product/batch-job-automation.php","/product/argent-worldview.php"];
 $web_links = ["/product/argent-sentinel.php","/product/argent-sentry-ultra.php"];
 $security_links = ["/product/argent-for-compliance.php","/product/argent-for-security.php"];
@@ -17,7 +17,7 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link <?php echo ($_SERVER["REQUEST_URI"] == "/product/argent-omega.php") ? 'active' : (($_SERVER["REQUEST_URI"] == "/products2.php") ? 'active' : ''); ?> " href="/product/argent-omega.php">
+          <li class="nav-item"> <a class="nav-link <?php echo ($_SERVER["REQUEST_URI"] == "/product/argent-omega.php") ? 'active' : (($_SERVER["REQUEST_URI"] == "/products.php") ? 'active' : ''); ?> " href="/product/argent-omega.php">
               Argent Omega </a> </li>
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-guardian.php" ? 'active' : '' ?> " href="/product/argent-guardian.php">
               Argent Guardian Ultra </a> </li>

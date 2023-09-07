@@ -40,7 +40,7 @@
     <section class="banner inner">
       <div class="container">
         <div class="text-center">
-          <h1>Argent's Unique Architecture</h1>
+          <h1>Privacy Policy</h1>
         </div>
       </div>
     </section>

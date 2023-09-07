@@ -1,11 +1,11 @@
 <?php 
-$system_links = ["/product/argent-omega/","/product/argent-guardian/","/product/argent-aws/","/product/argent-console/","/product/argent-sharepoint/","/product/argent-exchange/","/product/argent-for-java/","/product/argent-for-snmp/","/product/argent-for-storage/","/product/argent-for-xenapp/","/product/argent-for-active-directory/","/product/argent-for-sap/"];
-$batch_links = ["/product/batch-job-automation/","/product/argent-worldview/"];
-$web_links = ["/product/argent-sentinel/","/product/argent-sentry-ultra/"];
-$security_links = ["/product/argent-for-compliance/","/product/argent-for-security/"];
-$virtual_links = ["/product/argent-for-hyper-v/","/product/argent-for-vmware/","/product/argent-for-xenserver/"];
-$enterprise_links = ["/product/argent-boardroom/","/product/argent-commander/","/product/argent-global-manager/","/product/argent-reports/"];
-$database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/product/argent-for-sql-server/","/product/argent-for-sybase/"];
+$system_links = ["/products2.php","/product/argent-omega.php","/product/argent-guardian.php","/product/argent-aws.php","/product/argent-console.php","/product/argent-sharepoint.php","/product/argent-exchange.php","/product/argent-for-java.php","/product/argent-for-snmp.php","/product/argent-for-storage.php","/product/argent-for-xenapp.php","/product/argent-for-active-directory.php","/product/argent-for-sap.php"];
+$batch_links = ["/product/batch-job-automation.php","/product/argent-worldview.php"];
+$web_links = ["/product/argent-sentinel.php","/product/argent-sentry-ultra.php"];
+$security_links = ["/product/argent-for-compliance.php","/product/argent-for-security.php"];
+$virtual_links = ["/product/argent-for-hyper-v.php","/product/argent-for-vmware.php","/product/argent-for-xenserver.php"];
+$enterprise_links = ["/product/argent-boardroom.php","/product/argent-commander.php","/product/argent-global-manager.php","/product/argent-reports.php"];
+$database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.php","/product/argent-for-sql-server.php","/product/argent-for-sybase.php"];
 ?>
 <div class="accordions" id="accordion">
   <div class="card">
@@ -17,29 +17,29 @@ $database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-omega/" ? 'active' : '' ?> " href="/product/argent-omega/">
+          <li class="nav-item"> <a class="nav-link <?php echo ($_SERVER["REQUEST_URI"] == "/product/argent-omega.php") ? 'active' : (($_SERVER["REQUEST_URI"] == "/products2.php") ? 'active' : ''); ?> " href="/product/argent-omega.php">
               Argent Omega </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-guardian/" ? 'active' : '' ?> " href="/product/argent-guardian/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-guardian.php" ? 'active' : '' ?> " href="/product/argent-guardian.php">
               Argent Guardian Ultra </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-aws/" ? 'active' : '' ?> " href="/product/argent-aws/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-aws.php" ? 'active' : '' ?> " href="/product/argent-aws.php">
               Argent AWS </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-console/" ? 'active' : '' ?> " href="/product/argent-console/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-console.php" ? 'active' : '' ?> " href="/product/argent-console.php">
               Argent Console </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sharepoint/" ? 'active' : '' ?> " href="/product/argent-sharepoint/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sharepoint.php" ? 'active' : '' ?> " href="/product/argent-sharepoint.php">
               Argent for SharePoint </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-exchange/" ? 'active' : '' ?> " href="/product/argent-exchange/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-exchange.php" ? 'active' : '' ?> " href="/product/argent-exchange.php">
               Argent for Exchange </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-java/" ? 'active' : '' ?> " href="/product/argent-for-java/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-java.php" ? 'active' : '' ?> " href="/product/argent-for-java.php">
               Argent for Java </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-snmp/" ? 'active' : '' ?> " href="/product/argent-for-snmp/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-snmp.php" ? 'active' : '' ?> " href="/product/argent-for-snmp.php">
               Argent for SNMP </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-storage/" ? 'active' : '' ?> " href="/product/argent-for-storage/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-storage.php" ? 'active' : '' ?> " href="/product/argent-for-storage.php">
               Argent for Storage </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-xenapp/" ? 'active' : '' ?> " href="/product/argent-for-xenapp/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-xenapp.php" ? 'active' : '' ?> " href="/product/argent-for-xenapp.php">
               Argent for XenApp </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-active-directory/" ? 'active' : '' ?> " href="/product/argent-for-active-directory/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-active-directory.php" ? 'active' : '' ?> " href="/product/argent-for-active-directory.php">
               Argent for Active Directory </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sap/" ? 'active' : '' ?> " href="/product/argent-for-sap/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sap.php" ? 'active' : '' ?> " href="/product/argent-for-sap.php">
               Argent for SAP </a> </li>
         </ul>
         <!-- Tabs List -->
@@ -55,9 +55,9 @@ $database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link  <?php echo $_SERVER["REQUEST_URI"] == "/product/batch-job-automation/" ? 'active' : '' ?>" href="/product/batch-job-automation/">
+          <li class="nav-item"> <a class="nav-link  <?php echo $_SERVER["REQUEST_URI"] == "/product/batch-job-automation.php" ? 'active' : '' ?>" href="/product/batch-job-automation.php">
               Argent Job Scheduler </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-worldview/" ? 'active' : '' ?> " href="/product/argent-worldview/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-worldview.php" ? 'active' : '' ?> " href="/product/argent-worldview.php">
               Argent WorldView </a> </li>
         </ul>
         <!-- Tabs List -->
@@ -73,9 +73,9 @@ $database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link  <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sentinel/" ? 'active' : '' ?>" href="/product/argent-sentinel/">
+          <li class="nav-item"> <a class="nav-link  <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sentinel.php" ? 'active' : '' ?>" href="/product/argent-sentinel.php">
               Argent Sentinel </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sentry-ultra/" ? 'active' : '' ?> " href="/product/argent-sentry-ultra/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sentry-ultra.php" ? 'active' : '' ?> " href="/product/argent-sentry-ultra.php">
               Argent Sentry Ultra </a> </li>
         </ul>
         <!-- Tabs List -->
@@ -91,9 +91,9 @@ $database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-compliance/" ? 'active' : '' ?>" href="/product/argent-for-compliance/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-compliance.php" ? 'active' : '' ?>" href="/product/argent-for-compliance.php">
               Argent for Compliance </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-security/" ? 'active' : '' ?> " href="/product/argent-for-security/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-security.php" ? 'active' : '' ?> " href="/product/argent-for-security.php">
               Argent for Security </a> </li>
         </ul>
         <!-- Tabs List -->
@@ -109,11 +109,11 @@ $database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-hyper-v/" ? 'active' : '' ?>" href="/product/argent-for-hyper-v/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-hyper-v.php" ? 'active' : '' ?>" href="/product/argent-for-hyper-v.php">
               Argent for Hyper-V </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-vmware/" ? 'active' : '' ?> " href="/product/argent-for-vmware/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-vmware.php" ? 'active' : '' ?> " href="/product/argent-for-vmware.php">
               Argent for VMware </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-xenserver/" ? 'active' : '' ?> " href="/product/argent-for-xenserver/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-xenserver.php" ? 'active' : '' ?> " href="/product/argent-for-xenserver.php">
               Argent for XenServer </a> </li>
         </ul>
         <!-- Tabs List -->
@@ -129,13 +129,13 @@ $database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-boardroom/" ? 'active' : '' ?>" href="/product/argent-boardroom/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-boardroom.php" ? 'active' : '' ?>" href="/product/argent-boardroom.php">
               Argent BoardRoom </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-commander/" ? 'active' : '' ?> " href="/product/argent-commander/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-commander.php" ? 'active' : '' ?> " href="/product/argent-commander.php">
               Argent Commander </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-global-manager/" ? 'active' : '' ?> " href="/product/argent-global-manager/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-global-manager.php" ? 'active' : '' ?> " href="/product/argent-global-manager.php">
               Argent Global Manager </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-reports/" ? 'active' : '' ?> " href="/product/argent-reports/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-reports.php" ? 'active' : '' ?> " href="/product/argent-reports.php">
               Argent Reports </a> </li>
         </ul>
         <!-- Tabs List -->
@@ -151,13 +151,13 @@ $database_links = ["/product/argent-for-mysql/","/product/argent-for-oracle/","/
       <div class="card-body">
         <!-- Tabs List -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-mysql/" ? 'active' : '' ?>" href="/product/argent-for-mysql/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-mysql.php" ? 'active' : '' ?>" href="/product/argent-for-mysql.php">
               Argent for MySQL </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-oracle/" ? 'active' : '' ?> " href="/product/argent-for-oracle/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-oracle.php" ? 'active' : '' ?> " href="/product/argent-for-oracle.php">
               Argent for Oracle </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sql-server/" ? 'active' : '' ?> " href="/product/argent-for-sql-server/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sql-server.php" ? 'active' : '' ?> " href="/product/argent-for-sql-server.php">
               Argent for SQL Server </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sybase/" ? 'active' : '' ?> " href="/product/argent-for-sybase/">
+          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sybase.php" ? 'active' : '' ?> " href="/product/argent-for-sybase.php">
               Argent for Sybase </a> </li>
         </ul>
         <!-- Tabs List -->

@@ -211,128 +211,67 @@
                     </h2>
                 </div>
                 <div class="grid lg:grid-cols-3 gap-4">
-                    <!-- item  -->
-                    <a href="#" class="card-item downloadLink"
-                        data-file="/assets/pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf">
-                        <div class="new-badge-1">
-                            Free Product
-                        </div>
-                        <div class="flex flex-col gap-2 pt-8">
-                            <h3
-                                class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
-                                Argent White Paper <br>
-                                Monitor CCTVs In
-                                Under Four Hours
+                    <?php 
+                    $jsonData = '[
+                        {
+                            "title":"Argent White Paper \n Monitor CCTVs In Under Four Hours",
+                            "link":"/assets/pdf/Argent_Omega__FREE_FEATURE_White_Paper_Automatically_Monitor_CCTV_Cameras_In_Under_Four_Hours.pdf",
+                            "free":true
+                        },
+                        {
+                            "title":"Argent White Paper \n Monitoring SSL Certificates",
+                            "link":"/assets/pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf",
+                            "free":true
+                        },
+                        {
+                            "title":"Argent White Paper \n Keeping All Kids Safe",
+                            "link":"/assets/pdf/Argent_Omega_FREE_FEATURE_White%20Paper_Keeping_All_Kids_Safe.pdf",
+                            "free":true
+                        },
+                        {
+                            "title":"Argent White Paper \n SIEM-Complete Features \n And Benefits",
+                            "link":"/assets/pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf"
+                        },
+                        {
+                            "title":"Argent White Paper \n Stoppings Ransomware Permanently",
+                            "link":"/assets/pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf"
+                        },
+                        {
+                            "title":"Argent White Paper \n Argent Omega Benefits \n Over Argent AT",
+                            "link":"/assets/pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf"
+                        }
+                    ]';
+                    $data = json_decode($jsonData, true);
+                    foreach ($data as $item) {
+                        $link = $item['link'];
+                        $title = $item['title'];
+                        $isFree = isset($item['free']) && $item['free'] === true;
+                    ?>
 
-                            </h3>
-                        </div>
-                        <div class="flex items-center justify-between pt-3">
-                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
-                            <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
-                                Download
-                            </span>
-                        </div>
-                    </a>
-                    <!-- item  -->
-                    <a href="#" class="card-item downloadLink"
-                        data-file="/assets/pdf/Argent_Omega_FREE_FEATURE_Monitoring_SSL_Certificates_With_Argent_Omega.pdf">
-                        <div class="new-badge-1">
-                            Free Product
-                        </div>
-                        <div class="flex flex-col gap-2 pt-8">
-                            <h3
-                                class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
-                                Argent White Paper <br>
-                                Monitoring SSL Certificates
-                            </h3>
-                        </div>
-                        <div class="flex items-center justify-between pt-3">
-                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
-                            <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
-                                Download
-                            </span>
-                        </div>
-                    </a>
-                    <!-- item  -->
-                    <a href="#" data-file="/assets/pdf/Argent_Omega_FREE_FEATURE_White Paper_Keeping_All_Kids_Safe.pdf"
-                        class="card-item downloadLink">
-                        <div class="new-badge-1">
-                            Free Product
-                        </div>
-                        <div class="flex flex-col gap-2 pt-8">
-                            <h3
-                                class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
-                                Argent White Paper <br>
-                                Keeping All Kids Safe
-                            </h3>
-                        </div>
-                        <div class="flex items-center justify-between pt-3">
-                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
-                            <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
-                                Download
-                            </span>
-                        </div>
-                    </a>
-                    <!-- item  -->
-                    <a href="#" class="card-item downloadLink"
-                        data-file="/assets/pdf/Argent_Omega_White_Paper_SIEM-Complete_Features_and_Benefits.pdf">
-                        <div class="flex flex-col gap-2 pt-8">
-                            <h3
-                                class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
-                                Argent White Paper <br>
-                                SIEM-Complete
-                                Features
-                                <br> And Benefits
-                            </h3>
-                        </div>
-                        <div class="flex items-center justify-between pt-3">
-                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
-                            <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
-                                Download
-                            </span>
-                        </div>
-                    </a>
-                    <!-- item  -->
-                    <a href="#" class="card-item downloadLink"
-                        data-file="/assets/pdf/Argent_Omega_White_Paper_Stopping_Ransomware_Permanently.pdf">
-                        <div class="flex flex-col gap-2 pt-8">
-                            <h3
-                                class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
-                                Argent White Paper <br>
-                                Stoppings Ransomware Permanently
-                            </h3>
-                        </div>
-                        <div class="flex items-center justify-between pt-3">
-                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
-                            <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
-                                Download
-                            </span>
-                        </div>
-                    </a>
-                    <!-- item  -->
-                    <a href="#" class="card-item downloadLink"
-                        data-file="/assets/pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf">
-                        <div class="flex flex-col gap-2 pt-8">
-                            <h3
-                                class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
-                                Argent White Paper <br>
-                                Argent Omega Benefits<br>
-                                Over Argent AT
-                            </h3>
-                        </div>
-                        <div class="flex items-center justify-between pt-3">
-                            <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
-                            <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
-                                <img src="/assets/images/download.svg" width="14" height="14" alt="download">
-                                Download
-                            </span>
-                        </div>
-                    </a>
+                        <a href="<?php echo $link; ?>" target="_blank" class="card-item downloadLink"
+                            data-file="/assets/pdf/Argent_Omega_White_Paper_Benefits_Over_Argent_AT.pdf">
+                            <?php if ($isFree) { ?>
+                                <div class="new-badge-1">
+                                    Free Product
+                                </div>
+                            <?php } ?>
+                            <div class="flex flex-col gap-2 pt-8">
+                                <h3 class="min-h-[105px] text-[#5a6581] text-base leading-[1.2] lg:text-3xl lg:leading-[1.2] font-medium">
+                                    <?php echo $title; ?>
+                                </h3>
+                            </div>
+                            <div class="flex items-center justify-between pt-3">
+                                <img src="/assets/images/pdficon.svg" width="22" height="22" alt="pdficon">
+                                <span class="flex items-center gap-1 text-[#ea4335] text-base leading-6 font-semibold">
+                                    <img src="/assets/images/download.svg" width="14" height="14" alt="download">
+                                    Download
+                                </span>
+                            </div>
+                        </a>
+
+                    <?php
+                        }
+                    ?>
                 </div>
             </div>
         </section>

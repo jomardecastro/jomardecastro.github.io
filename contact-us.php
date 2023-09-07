@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <title>Contact Form | Argent</title>
-
+  <title>Contact Us | Argent</title>
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
     id='jquery-cdn-js'></script>
   <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
@@ -21,29 +20,28 @@
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
-
-
-  <script src="/assets/scripts/contact.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-  <style>
-    h1 {
-      font-size: 64px !important;
-      line-height: 100px;
-      color: #1E293B;
-    }
-
-    .g-recaptcha div {
-      margin: auto;
-    }
-
-    input,
-    textarea,
-    select {
-      padding: 10px 20px !important;
-      font-family: 'Hellix' !important;
-    }
-  </style>
+    <style>
+      h1 
+      {
+        font-size: 64px !important;
+        line-height: 100px ;
+        color: #1E293B ;
+      }
+      h1, h2, h3, h4, h5, h6 
+      {
+          margin: 0;
+          color: inherit;
+          font-weight: 600;
+          word-break: break-word;
+          color: #233655;
+          font-family: 'Hellix';
+      }
+      h4 
+      {
+          font-size: 22px;
+          line-height: 30px;
+      }
+    </style>
 </head>
 
 <body class="font-cairo">
@@ -54,113 +52,146 @@
     <section class="banner inner">
       <div class="container">
         <div class="text-center">
-          <h1>Contact Request Form</h1>
+          <h1>For any enquiries, just email ContactUs@Argent.com</h1>
         </div>
       </div>
     </section>
-    <section class="contact-form section-padding">
+    <section class="contact section-padding">
       <div class="container">
-        <div class="form">
-          <div class="d-flex">
+        <div class="row">
 
-            <div class="wpcf7 js" id="wpcf7-f204-o1" lang="en-US" dir="ltr">
-              <div class="screen-reader-response">
-                <p role="status" aria-live="polite" aria-atomic="true"></p>
-                <ul></ul>
-              </div>
-              <form method="POST" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate"
-                data-status="init">
-                <div class="field-wrap half">
-                  <label for="">Account Manager/Reseller:</label>
-                  <span class="wpcf7-form-control-wrap" data-name="account_manager">
-                    <input size="40" aria-invalid="false" value="" type="text"
-                      name="account_manager"></span>
-                </div>
-                <div class="field-wrap half">
-                  <label for="">Company Name</label>
-                  <span class="wpcf7-form-control-wrap" data-name="company_name">
-                    <input size="40" aria-required="true" aria-invalid="false" value="" type="text" name="company_name"></span>
-                    <span id="company_name_error" class="wpcf7-not-valid-tip" aria-hidden="true"></span>
-                </div>
-                <div class="field-wrap half">
-                  <label for="">Contact Name</label>
-                  <span class="wpcf7-form-control-wrap" data-name="contact_name">
-                    <input size="40" aria-required="true" aria-invalid="false" value="" type="text" name="contact_name"></span>
-                    <span id="contact_name_error" class="wpcf7-not-valid-tip" aria-hidden="true"></span>
-
-                </div>
-                <div class="field-wrap half">
-                  <label for="">Email To</label>
-                  <span class="wpcf7-form-control-wrap" data-name="email">
-                    <input size="40" aria-required="true" aria-invalid="false" value="" type="email" name="email"></span>
-                    <span id="email_error" class="wpcf7-not-valid-tip" aria-hidden="true"></span>
-                </div>
-                <div class="field-wrap half">
-                  <label for="">Phone Number</label>
-                  <span class="wpcf7-form-control-wrap" data-name="phone">
-                    <input size="40" aria-required="true" aria-invalid="false" value="" type="tel" name="phone"></span>
-                    <span id="phone_error" class="wpcf7-not-valid-tip" aria-hidden="true"></span>
-
-                </div>
-                <div class="field-wrap half">
-                  <label for="">Product</label>
-                  <span class="wpcf7-form-control-wrap" data-name="product">
-                    <select aria-invalid="false" name="product">
-                      <option value="None">None</option>
-                      <option value="Argent Advanced Technology Suite">Argent Advanced Technology Suite</option>
-                      <option value="Argent Guardian Ultra" selected="selected">Argent Guardian Ultra</option>
-                      <option value="Argent Commander">Argent Commander</option>
-                      <option value="Argent Global Manager">Argent Global Manager</option>
-                      <option value="Argent Reports">Argent Reports</option>
-                      <option value="Argent Job Scheduler">Argent Job Scheduler</option>
-                      <option value="Argent Omega">Argent Omega</option>
-                      <option value="Argent SIEM-Complete">Argent SIEM-Complete</option>
-                    </select>
-                  </span>
-                </div>
-                <div class="field-wrap">
-                  <label for="">Type:</label>
-                  <span class="wpcf7-form-control-wrap" data-name="type">
-                    <span class="wpcf7-radio">
-                      <span class="wpcf7-list-item first">
-                        <label>
-                          <input type="radio" name="type" value="Sales/Maintenance" checked="checked">
-                          <span class="wpcf7-list-item-label">Sales/Maintenance</span>
-                        </label>
-                      </span>
-                      <span class="wpcf7-list-item">
-                        <label>
-                          <input type="radio" name="type" value="Technical Support">
-                          <span class="wpcf7-list-item-label">Technical Support</span>
-                        </label>
-                      </span>
-                      <span class="wpcf7-list-item last">
-                        <label>
-                          <input type="radio" name="type" value="General Information">
-                          <span class="wpcf7-list-item-label">General Information</span>
-                        </label>
-                      </span>
-                    </span>
-                  </span>
-                </div>
-                <div class="field-wrap">
-                  <label for="">Details</label>
-                  <span class="wpcf7-form-control-wrap" data-name="details"><textarea cols="40" rows="10"
-                      class="rea" aria-invalid="false"
-                      name="details"></textarea></span>
-                </div>
-                <div class="field-wrap mb-0 text-center">
-                  <div class="g-recaptcha" data-sitekey="6LcZxvgnAAAAABmDPFhDgvxGsJVcQpx5qXooUe5w" data-callback="captchaSuccess"></div>
-                  <div id="captcha_error" class="wpcf7-not-valid-tip" aria-hidden="true"></div>
-                  <input class="has-spinner wpcf7-submit btn submit my-2" type="submit"
-                    value="Send Contact Request">
-                  <span id="spinner" class="wpcf7-spinner"></span>
-                  <div id="contact_submission_success" class="" aria-hidden="true"></div>
-
-                </div>
-              </form>
+          <div class="col-md-4 col-sm-6">
+            <div class="wrapper">
+              <h4>New York, USA</h4>
+              <ul>
+                <li>
+                  <a href="tel:212 222 9868"><img src="/assets/images/phone.svg" alt="icon">212
+                    222 9868</a>
+                </li>
+                <li>
+                  <a href="tel:917 724 0650"><img src="/assets/images/dial.svg" alt="icon">917
+                    724 0650</a>
+                </li>
+                <li>
+                  <a href="https://goo.gl/maps/ceyDoHA2vzDxfmkG9" target="_blank"><img
+                      src="/assets/images/map.svg" alt="icon">ArgSoft Group LLC, 30 Wall Street,
+                    8th Floor, New York, NY 10005 United States</a>
+                </li>
+              </ul>
             </div>
           </div>
+
+
+          <div class="col-md-4 col-sm-6">
+            <div class="wrapper">
+              <h4>London, UK</h4>
+              <ul>
+                <li>
+                  <a href="tel:44 20 3818 5866"><img src="/assets/images/phone.svg"
+                      alt="icon">44 20 3818 5866</a>
+                </li>
+                <li>
+                  <a href="tel:44 20 3603 4548"><img src="/assets/images/dial.svg" alt="icon">44
+                    20 3603 4548</a>
+                </li>
+                <li>
+                  <a href="https://goo.gl/maps/o7V4ZY4XF5zpprgc7" target="_blank"><img
+                      src="/assets/images/map.svg" alt="icon">ArgSoft Sales and Engineering
+                    Limited 20-22 Wenlock Road London, N1 7GU United Kingdom</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6">
+            <div class="wrapper">
+              <h4>Tokyo, Japan</h4>
+              <ul>
+                <li>
+                  <a href="tel:81 3 4578 0479"><img src="/assets/images/phone.svg" alt="icon">81
+                    3 4578 0479</a>
+                </li>
+                <li>
+                  <a href="tel:81 3 6745 9268"><img src="/assets/images/dial.svg" alt="icon">81
+                    3 6745 9268</a>
+                </li>
+                <li>
+                  <a href="https://goo.gl/maps/45nqR2Uvq3dE4L5F9" target="_blank"><img
+                      src="/assets/images/map.svg" alt="icon">ArgSoft Japan Branch Shinjuku Park
+                    Tower 30th Floor 3-7-1 Nishi-Shinjuku, Shinjuku-ku Tokyo, 163-1030, Japan</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6">
+            <div class="wrapper">
+              <h4>Singapore</h4>
+              <ul>
+                <li>
+                  <a href="tel:65 6829 7236"><img src="/assets/images/phone.svg" alt="icon">65
+                    6829 7236</a>
+                </li>
+                <li>
+                  <a href="tel:65 6829 7070"><img src="/assets/images/dial.svg" alt="icon">65
+                    6829 7070</a>
+                </li>
+                <li>
+                  <a href="https://goo.gl/maps/SeXt3JKL3wFxC5ju5" target="_blank"><img
+                      src="/assets/images/map.svg" alt="icon">ArgSoft Sales and Software Pte.
+                    Ltd, High Street Centre, 1 North Bridge Road, #B1-35, Singapore 179094</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6">
+            <div class="wrapper">
+              <h4>Hong Kong</h4>
+              <ul>
+                <li>
+                  <a href="tel:852 2330 0310"><img src="/assets/images/phone.svg" alt="icon">852
+                    2330 0310</a>
+                </li>
+                <li>
+                  <a href="tel:852 3010 1208"><img src="/assets/images/dial.svg" alt="icon">852
+                    3010 1208</a>
+                </li>
+                <li>
+                  <a href="https://goo.gl/maps/dbU4bfzAdy3V9XMi8" target="_blank"><img
+                      src="/assets/images/map.svg" alt="icon">ArgSoft Sales and Support Limited
+                    Unit A1, 9/F, OfficePlus Mong Kok 998 Canton Road Hong Kong</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6">
+            <div class="wrapper">
+              <h4>Melbourne, Australia</h4>
+              <ul>
+                <li>
+                  <a href="tel:61 3 9614 2933"><img src="/assets/images/phone.svg" alt="icon">61
+                    3 9614 2933</a>
+                </li>
+                <li>
+                  <a href="tel:61 3 8648 5656"><img src="/assets/images/dial.svg" alt="icon">61
+                    3 8648 5656</a>
+                </li>
+                <li>
+                  <a href="https://goo.gl/maps/5fnw6jFiVfeibZ5h6" target="_blank"><img
+                      src="/assets/images/map.svg" alt="icon">ArgSoft Sales and Support Pty
+                    Limited Suite 9, Level 18 101 Collins Street Melbourne, VIC 3000, Australia</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>

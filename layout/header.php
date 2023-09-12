@@ -7,7 +7,7 @@
                 Instant Help
             </a>
             <a href="#" class="pl-10 py-7 lg:p-0">
-                <img src="/assets/images/logo.png" width="147" height="16" alt="Logo">
+                <img src="/assets/images/main-logo-transparent.png" width="147" height="16" alt="Logo">
                 <span class="sr-only">Logo</span>
             </a>
             <nav class="nav-menu flex justify-end">

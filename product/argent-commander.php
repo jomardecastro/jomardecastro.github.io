@@ -21,6 +21,8 @@
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 	<style>
 		h1, h2, h3, h4, h5, h6 
 		{
@@ -89,21 +91,21 @@
 										target="_blank">http://Commander.Argent.com</a> </p>
 								<div class="Images-wrap">
 									<a href="javascript:;" data-fancybox="Argent Commander"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/commander4b_large_b.jpg"
+										data-src="/assets/images/products/commander4b_large_b.jpg"
 										target="_blank"> <img
-											src="https://www.argent.com/wp-content/uploads/2022/11/commander4b_large_b.jpg" alt="Image"> </a>
+											src="/assets/images/products/commander4b_large_b.jpg" alt="Image"> </a>
 									<a href="javascript:;" data-fancybox="Argent Commander"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/commander3b_large_b.jpg"
+										data-src="/assets/images/products/commander3b_large_b.jpg"
 										target="_blank"> <img
-											src="https://www.argent.com/wp-content/uploads/2022/11/commander3b_large_b.jpg" alt="Image"> </a>
+											src="/assets/images/products/commander3b_large_b.jpg" alt="Image"> </a>
 									<a href="javascript:;" data-fancybox="Argent Commander"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/commander2b_large_b.jpg"
+										data-src="/assets/images/products/commander2b_large_b.jpg"
 										target="_blank"> <img
-											src="https://www.argent.com/wp-content/uploads/2022/11/commander2b_large_b.jpg" alt="Image"> </a>
+											src="/assets/images/products/commander2b_large_b.jpg" alt="Image"> </a>
 									<a href="javascript:;" data-fancybox="Argent Commander"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/commander1b_large_b.jpg"
+										data-src="/assets/images/products/commander1b_large_b.jpg"
 										target="_blank"> <img
-											src="https://www.argent.com/wp-content/uploads/2022/11/commander1b_large_b.jpg" alt="Image"> </a>
+											src="/assets/images/products/commander1b_large_b.jpg" alt="Image"> </a>
 								</div>
 								<!-- Else OverView End-->
 							</div>

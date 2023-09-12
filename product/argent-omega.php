@@ -21,6 +21,8 @@
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 	<style>
 		h1, h2, h3, h4, h5, h6 
 		{
@@ -50,7 +52,6 @@
 			letter-spacing: 0 !important;
 		}
 	</style>
-
 </head>
 
 <body class="font-cairo">
@@ -91,12 +92,10 @@
 												href="https://help.argent.com/product_downloads/product_downloads_omega/" target="_blank"
 												rel="noopener">click here</a></p>
 										<div class="Images-wrap">
-											<a href="javascript:;" data-fancybox="Argent Omega"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/omega_l1.png" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/omega_l1.png" alt="Image"> </a>
-											<a href="javascript:;" data-fancybox="Argent Omega"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/omega_l2.png" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/omega_l2.png" alt="Image"> </a>
+											<a class="grouped_elements" data-fancybox="images" rel="group1" href="/assets/images/products/omega_l1.png"><img
+													src="/assets/images/products/omega_l1.png" alt="" /></a>
+											<a class="grouped_elements" data-fancybox="images" rel="group1" href="/assets/images/products/omega_l2.png"><img
+													src="/assets/images/products/omega_l2.png" alt="" /></a>
 										</div>
 										<!-- Inner Content End -->
 									</div>

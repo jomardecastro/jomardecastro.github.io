@@ -265,13 +265,11 @@
 										<p>For a free 14-day evaluation simply&nbsp;<a
 												href="https://help.argent.com/product_downloads/product_downloads_omega/" target="_blank"
 												rel="noopener">click here</a></p>
-										<div class="Images-wrap">
-											<a href="javascript:;" data-fancybox="Argent Omega"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/omega_l1.png" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/omega_l1.png" alt="Image"> </a>
-											<a href="javascript:;" data-fancybox="Argent Omega"
-												data-src="https://www.argent.com/wp-content/uploads/2022/11/omega_l2.png" target="_blank"> <img
-													src="https://www.argent.com/wp-content/uploads/2022/11/omega_l2.png" alt="Image"> </a>
+											<div class="Images-wrap">
+											<a class="grouped_elements" data-fancybox="images" rel="group1" href="assets/images/products/omega_l1.png"><img
+													src="assets/images/products/omega_l1.png" alt="" /></a>
+											<a class="grouped_elements" data-fancybox="images" rel="group1" href="assets/images/products/omega_l2.png"><img
+													src="assets/images/products/omega_l2.png" alt="" /></a>
 										</div>
 										<!-- Inner Content End -->
 									</div>

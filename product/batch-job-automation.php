@@ -21,6 +21,8 @@
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 	<style>
 		h1, h2, h3, h4, h5, h6 
 		{
@@ -97,12 +99,13 @@
 										target="_blank">http://WorldView.Argent.com</a> </p>
 								<div class="Images-wrap">
 									<a href="javascript:;" data-fancybox="Argent Job Scheduler"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/js_l2.jpg" target="_blank"> <img
-											src="https://www.argent.com/wp-content/uploads/2022/11/js_l2.jpg" alt="Image"> </a>
+										data-src="/assets/images/products/js_l2.jpg" target="_blank"> <img
+											src="/assets/images/products/js_l2.jpg" alt="Image"> </a>
 									<a href="javascript:;" data-fancybox="Argent Job Scheduler"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/js_l1.jpg" target="_blank"> <img
-											src="https://www.argent.com/wp-content/uploads/2022/11/js_l1.jpg" alt="Image"> </a>
+										data-src="/assets/images/products/js_l1.jpg" target="_blank"> <img
+											src="/assets/images/products/js_l1.jpg" alt="Image"> </a>
 								</div>
+								
 								<h3>Centralized Job Scheduling</h3>
 								<p>From a central scheduling server, Argent Job Scheduler can submit jobs to an unlimited number of
 									servers where the batch jobs actually execute. All jobs on all servers regardless of platform can be

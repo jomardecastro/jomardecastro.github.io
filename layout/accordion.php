@@ -15,11 +15,11 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
     </div>
     <div id="collapse-12" class="collapse <?php echo in_array($_SERVER["REQUEST_URI"], $system_links) ? 'show' : ''; ?>" aria-labelledby="heading-12" data-parent="#accordion">
       <div class="card-body">
-        <!-- Tabs List -->
+        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item"> <a class="nav-link <?php echo ($_SERVER["REQUEST_URI"] == "/product/argent-omega.php") ? 'active' : (($_SERVER["REQUEST_URI"] == "/products.php") ? 'active' : ''); ?> " href="/product/argent-omega.php">
               Argent Omega </a> </li>
-          <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-guardian.php" ? 'active' : '' ?> " href="/product/argent-guardian.php">
+          <!-- <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-guardian.php" ? 'active' : '' ?> " href="/product/argent-guardian.php">
               Argent Guardian Ultra </a> </li>
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-aws.php" ? 'active' : '' ?> " href="/product/argent-aws.php">
               Argent AWS </a> </li>
@@ -40,9 +40,9 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-active-directory.php" ? 'active' : '' ?> " href="/product/argent-for-active-directory.php">
               Argent for Active Directory </a> </li>
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sap.php" ? 'active' : '' ?> " href="/product/argent-for-sap.php">
-              Argent for SAP </a> </li>
+              Argent for SAP </a> </li> -->
         </ul>
-        <!-- Tabs List -->
+        
       </div>
     </div>
   </div>
@@ -53,50 +53,50 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
     </div>
     <div id="collapse-11" class="collapse <?php echo in_array($_SERVER["REQUEST_URI"], $batch_links) ? 'show' : ''; ?>" aria-labelledby="heading-11" data-parent="#accordion">
       <div class="card-body">
-        <!-- Tabs List -->
+        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item"> <a class="nav-link  <?php echo $_SERVER["REQUEST_URI"] == "/product/batch-job-automation.php" ? 'active' : '' ?>" href="/product/batch-job-automation.php">
               Argent Job Scheduler </a> </li>
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-worldview.php" ? 'active' : '' ?> " href="/product/argent-worldview.php">
               Argent WorldView </a> </li>
         </ul>
-        <!-- Tabs List -->
+        
       </div>
     </div>
   </div>
-  <div class="card">
+  <!-- <div class="card">
     <div class="card-header" id="heading-13">
       <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-13" aria-expanded="false"
         aria-controls="collapse13"> Web and Intranet </button>
     </div>
     <div id="collapse-13" class="collapse <?php echo in_array($_SERVER["REQUEST_URI"], $web_links) ? 'show' : ''; ?>" aria-labelledby="heading-13" data-parent="#accordion">
       <div class="card-body">
-        <!-- Tabs List -->
+        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item"> <a class="nav-link  <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sentinel.php" ? 'active' : '' ?>" href="/product/argent-sentinel.php">
               Argent Sentinel </a> </li>
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-sentry-ultra.php" ? 'active' : '' ?> " href="/product/argent-sentry-ultra.php">
               Argent Sentry Ultra </a> </li>
         </ul>
-        <!-- Tabs List -->
+        
       </div>
     </div>
-  </div>
-  <div class="card">
+  </div> -->
+  <!-- <div class="card">
     <div class="card-header" id="heading-14">
       <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-14" aria-expanded="false"
         aria-controls="collapse14"> Security and Compliance </button>
     </div>
     <div id="collapse-14" class="collapse <?php echo in_array($_SERVER["REQUEST_URI"], $security_links) ? 'show' : ''; ?>" aria-labelledby="heading-14" data-parent="#accordion">
       <div class="card-body">
-        <!-- Tabs List -->
+        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-compliance.php" ? 'active' : '' ?>" href="/product/argent-for-compliance.php">
               Argent for Compliance </a> </li>
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-security.php" ? 'active' : '' ?> " href="/product/argent-for-security.php">
               Argent for Security </a> </li>
         </ul>
-        <!-- Tabs List -->
+        
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
     </div>
     <div id="collapse-15" class="collapse <?php echo in_array($_SERVER["REQUEST_URI"], $virtual_links) ? 'show' : ''; ?>" aria-labelledby="heading-15" data-parent="#accordion">
       <div class="card-body">
-        <!-- Tabs List -->
+        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-hyper-v.php" ? 'active' : '' ?>" href="/product/argent-for-hyper-v.php">
               Argent for Hyper-V </a> </li>
@@ -116,10 +116,10 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-xenserver.php" ? 'active' : '' ?> " href="/product/argent-for-xenserver.php">
               Argent for XenServer </a> </li>
         </ul>
-        <!-- Tabs List -->
+        
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="card">
     <div class="card-header" id="heading-16">
       <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-16" aria-expanded="false"
@@ -127,7 +127,7 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
     </div>
     <div id="collapse-16" class="collapse <?php echo in_array($_SERVER["REQUEST_URI"], $enterprise_links) ? 'show' : ''; ?>" aria-labelledby="heading-16" data-parent="#accordion">
       <div class="card-body">
-        <!-- Tabs List -->
+        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-boardroom.php" ? 'active' : '' ?>" href="/product/argent-boardroom.php">
               Argent BoardRoom </a> </li>
@@ -138,18 +138,18 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-reports.php" ? 'active' : '' ?> " href="/product/argent-reports.php">
               Argent Reports </a> </li>
         </ul>
-        <!-- Tabs List -->
+        
       </div>
     </div>
   </div>
-  <div class="card">
+  <!-- <div class="card">
     <div class="card-header" id="heading-17">
       <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-17" aria-expanded="false"
         aria-controls="collapse17"> Databases </button>
     </div>
     <div id="collapse-17" class="collapse <?php echo in_array($_SERVER["REQUEST_URI"], $database_links) ? 'show' : ''; ?>" aria-labelledby="heading-17" data-parent="#accordion">
       <div class="card-body">
-        <!-- Tabs List -->
+        
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-mysql.php" ? 'active' : '' ?>" href="/product/argent-for-mysql.php">
               Argent for MySQL </a> </li>
@@ -160,8 +160,8 @@ $database_links = ["/product/argent-for-mysql.php","/product/argent-for-oracle.p
           <li class="nav-item"> <a class="nav-link <?php echo $_SERVER["REQUEST_URI"] == "/product/argent-for-sybase.php" ? 'active' : '' ?> " href="/product/argent-for-sybase.php">
               Argent for Sybase </a> </li>
         </ul>
-        <!-- Tabs List -->
+        
       </div>
     </div>
-  </div>
+  </div> -->
 </div>

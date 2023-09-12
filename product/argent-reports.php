@@ -21,6 +21,8 @@
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 	<style>
 		h1, h2, h3, h4, h5, h6 
 		{
@@ -89,17 +91,17 @@
 										target="_blank">http://ArgentReports.Argent.com</a> </p>
 								<div class="Images-wrap">
 									<a href="javascript:;" data-fancybox="Argent Reports"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports4_large.jpg" target="_blank">
-										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports4_large.jpg" alt="Image"> </a>
+										data-src="/assets/images/products/reports4_large.jpg" target="_blank">
+										<img src="/assets/images/products/reports4_large.jpg" alt="Image"> </a>
 									<a href="javascript:;" data-fancybox="Argent Reports"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports3_large.jpg" target="_blank">
-										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports3_large.jpg" alt="Image"> </a>
+										data-src="/assets/images/products/reports3_large.jpg" target="_blank">
+										<img src="/assets/images/products/reports3_large.jpg" alt="Image"> </a>
 									<a href="javascript:;" data-fancybox="Argent Reports"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports2_large_b.jpg" target="_blank">
-										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports2_large_b.jpg" alt="Image"> </a>
+										data-src="/assets/images/products/reports2_large_b.jpg" target="_blank">
+										<img src="/assets/images/products/reports2_large_b.jpg" alt="Image"> </a>
 									<a href="javascript:;" data-fancybox="Argent Reports"
-										data-src="https://www.argent.com/wp-content/uploads/2022/11/reports1_large_b.jpg" target="_blank">
-										<img src="https://www.argent.com/wp-content/uploads/2022/11/reports1_large_b.jpg" alt="Image"> </a>
+										data-src="/assets/images/products/reports1_large_b.jpg" target="_blank">
+										<img src="/assets/images/products/reports1_large_b.jpg" alt="Image"> </a>
 								</div>
 								<!-- Else OverView End-->
 							</div>

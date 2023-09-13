@@ -17,14 +17,16 @@
     id='bootstrap.min.js-cdn-js'></script>
   <link rel='stylesheet' id='bootstrap.min-css'
     href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
-  <link rel="stylesheet" href="/assets/css/pages.css" />
+  <!-- <link rel="stylesheet" href="/assets/css/pages.css" /> -->
   <link rel="stylesheet" href="/assets/css/styles.css" />
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
       id='jquery-cdn-js'></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
-    
+    <style>
+    </style>
 </head>
 
 <body class="font-cairo">

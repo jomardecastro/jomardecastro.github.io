@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <title>White Papers | Argent</title>
+  <title>Privacy Policy | Argent</title>
   <link rel="stylesheet" href="/assets/css/pages.css" />
   
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
@@ -24,7 +24,8 @@
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
     
     <style>
-    h1 {
+    h1 
+    {
       font-size: 64px !important;
       line-height: 100px;
       color: #1E293B;

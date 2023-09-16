@@ -42,6 +42,8 @@
 
     h1 {
       font-size: 64px !important;
+      font-weight: inherit !important;
+
       line-height: 100px;
       color: #1E293B;
     }

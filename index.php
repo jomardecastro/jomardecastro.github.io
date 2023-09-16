@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <title>Home</title>
+    <title>| Argent</title>
     <script src="/assets/scripts/jquiry.js"></script>
     <script src="/assets/scripts/swiper.js"></script>
     <script src="/assets/scripts/scripts.js"></script>

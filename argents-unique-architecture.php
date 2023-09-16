@@ -25,6 +25,7 @@
     h1 {
       font-size: 64px !important;
       line-height: 100px;
+
       color: #1E293B;
     }
   </style>

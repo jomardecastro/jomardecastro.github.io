@@ -22,18 +22,22 @@
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
     <link rel="stylesheet" href="/assets/css/pages.css" />
     <style>
-        h1 {
-                    font-size: 64px !important;
-                    line-height: 100px ;
-                    color: #1E293B ;
-                }
+        
         h1,
         h2,
         h3,
         h4,
         h5,
-        h6 {
+        h6 
+        {
             font-weight: 600 !important;
+        }
+        h1 
+        {
+            font-size: 64px !important;
+            line-height: 100px ;
+            font-weight: inherit !important;
+            color: #1E293B ;
         }
     </style>
 </head>

@@ -6,7 +6,7 @@
                 <img src="/assets/images/support.svg" width="38" height="38" alt="v">
                 Instant Help
             </a>
-            <a href="#" class="pl-10 py-7 lg:p-0">
+            <a href="/" class="pl-10 py-7 lg:p-0">
                 <img src="/assets/images/main-logo-transparent.png" width="147" height="16" alt="Logo">
                 <span class="sr-only">Logo</span>
             </a>

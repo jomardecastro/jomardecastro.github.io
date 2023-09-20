@@ -21,6 +21,8 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+	<script src="/assets/scripts/header.js"></script>
+
 	<style>
 		h1,
 		h2,
@@ -34,11 +36,6 @@
 			word-break: break-word !important;
 			color: #233655 !important;
 			font-family: 'Hellix' !important;
-		}
-		h1 {
-			font-size: 64px !important;
-			line-height: 100px !important;
-			color: #1E293B !important;
 		}
 
 		.main-wrap .accordions .card .card-header .btn {

@@ -31,6 +31,27 @@ body {
   line-height: 28px;
   color:#596480;
 }
+
+.header.desktop, .header.mob {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .header.desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .header.mob {
+    display: block;
+  }
+  .home-content
+  {
+      padding:120px 0 20px;
+  }
+}
+
 .container{
   max-width: 1230px;
 }

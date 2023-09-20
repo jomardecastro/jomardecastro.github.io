@@ -20,15 +20,9 @@
       id='jquery-cdn-js'></script>
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
+	<script src="/assets/scripts/header.js"></script>
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
-    <style>
-    h1 {
-      font-size: 64px !important;
-      line-height: 100px;
-
-      color: #1E293B;
-    }
-  </style>
+   
 </head>
 
 <body class="font-cairo">

@@ -7,31 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <title>| Argent</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <script src="/assets/scripts/jquiry.js"></script>
     <script src="/assets/scripts/swiper.js"></script>
-    <script src="/assets/scripts/scripts.js"></script>
     <link rel="stylesheet" href="/assets/css/pages.css" />
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
-    id='jquery-cdn-js'></script>
-  <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
-    id='bootstrap.min.js-cdn-js'></script>
-  <link rel='stylesheet' id='bootstrap.min-css'
-    href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
-  <!-- <link rel="stylesheet" href="/assets/css/pages.css" /> -->
-  <link rel="stylesheet" href="/assets/css/styles.css" />
-  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
-      id='jquery-cdn-js'></script>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
-  <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
-  <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
-  <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js' id='bootstrap.min.js-cdn-js'></script>
+    <link rel='stylesheet' id='bootstrap.min-css' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
+    <!-- <link rel="stylesheet" href="/assets/css/pages.css" /> -->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel=" stylesheet" />
+     <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
+    <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+    <script src="/assets/scripts/scripts.js"></script>
+    <script src="/assets/scripts/header.js"></script>
     <style>
+        .swiper {
+            color:black
+        }
     </style>
 </head>
 
 <body class="font-cairo">
 
     <?php include 'layout/header.php'; ?>
+    <section class="home-content">
     <main>
         <div class="crust-page-loader crust-animated-load" id="loader">
             <div class="crust-inner-loader">
@@ -278,6 +280,8 @@
             </div>
         </section>
     </main>
+    </section>
+    
 
     <?php include 'layout/footer.php'; ?>
     

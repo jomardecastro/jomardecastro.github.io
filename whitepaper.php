@@ -32,14 +32,9 @@
         {
             font-weight: 600 !important;
         }
-        h1 
-        {
-            font-size: 64px !important;
-            line-height: 100px ;
-            font-weight: inherit !important;
-            color: #1E293B ;
-        }
     </style>
+	<script src="/assets/scripts/header.js"></script>
+
 </head>
 
 <body class="font-cairo">

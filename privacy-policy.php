@@ -22,15 +22,8 @@
   <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
   <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+	<script src="/assets/scripts/header.js"></script>
     
-    <style>
-    h1 
-    {
-      font-size: 64px !important;
-      line-height: 100px;
-      color: #1E293B;
-    }
-  </style>
 </head>
 
 <body class="font-cairo">

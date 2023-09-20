@@ -13,35 +13,13 @@ for (var i = 0; i < downloadLinks.length; i++) {
     });
 }
 
-
-
-
-
-
-
 // =================================================
 
 
-var prevScrollPos = window.scrollY || document.documentElement.scrollTop;
-var header = document.querySelector("header");
-
-window.addEventListener("scroll", function () {
-    var currentScrollPos = window.scrollY || document.documentElement.scrollTop;
-
-    if (prevScrollPos > currentScrollPos) {
-        header.classList.remove("top-100");
-    } else {
-        header.classList.add("top-100");
-    }
-
-    prevScrollPos = currentScrollPos;
-});
 
 
-$(".toggle-mob-menu").on("click", function () {
-    $("#menu-header-menu").toggleClass("active");
-    $(this).toggleClass("active")
-})
+
+
 
 window.onload = function () 
 {
@@ -82,5 +60,7 @@ window.onload = function ()
         
         h_index++;
     }
+
+    
 }
 

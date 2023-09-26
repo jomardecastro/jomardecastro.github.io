@@ -41,15 +41,15 @@ body {
     display: block;
   }
 }
-
+.home-content
+  {
+      padding:120px 0 20px;
+  }
 @media (max-width: 768px) {
   .header.mob {
     display: block;
   }
-  .home-content
-  {
-      padding:120px 0 20px;
-  }
+  
 }
 
 .container{

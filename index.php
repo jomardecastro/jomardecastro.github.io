@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="swiper slider-certificate">
-            <div class="swiper-wrapper items-center text-base leading-normal lg:text-[25px] lg:leading-[52px] py-3 -z-[1]">
+            <div class="swiper-wrapper items-center leading-normal lg:text-[25px] lg:leading-[52px] py-3 -z-[1]">
                 <!-- slider item  -->
                 <div class="swiper-slide active text-center cursor-grab">
                     <strong>

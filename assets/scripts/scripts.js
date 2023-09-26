@@ -13,22 +13,18 @@ for (var i = 0; i < downloadLinks.length; i++) {
     });
 }
 
-// =================================================
-
-
-
-
-
-
 
 window.onload = function () 
 {
-
-    setTimeout(function () {
-        $('#loader').fadeOut(700)
-    }, 1000); 
-
-    let h_index = 0 
+    let init = true
+    setTimeout(function () 
+    {
+        //changing fadeOut(Number) will change how long the fade effect works
+        $('#loader').fadeOut(1000)
+    }, 
+    // changing the number here will change how long the delay is before showing the main page
+    1000); 
+    let h_index = 1 
     let swiper_slides
     let swiper_array
 
@@ -36,16 +32,11 @@ window.onload = function ()
     {
         swiper_slides = $('.swiper-wrapper .swiper-slide');
         swiper_array = swiper_slides.toArray();
+
+        // changing these numbers will change how long the banner's interval in changing is
+        setTimeout(toggleActive, 4000)
         setInterval(toggleActive, 4000);
     }
-
-    if ($(".slider-certificate-vrtical").length > 0) 
-    {
-        swiper_slides = $('.swiper-wrapper .swiper-slide');
-        swiper_array = swiper_slides.toArray();
-        setInterval(toggleActive, 4000);
-    }
-
     function toggleActive()
     {
         if (h_index >= swiper_slides.length) {
@@ -60,7 +51,5 @@ window.onload = function ()
         
         h_index++;
     }
-
-    
 }
 

@@ -19,10 +19,8 @@ window.onload = function ()
     let init = true
     setTimeout(function () 
     {
-        //changing fadeOut(Number) will change how long the fade effect works
-        $('#loader').fadeOut(1000)
+        $('#loader').fadeOut(1)
     }, 
-    // changing the number here will change how long the delay is before showing the main page
     1000); 
     let h_index = 1 
     let swiper_slides
@@ -32,8 +30,6 @@ window.onload = function ()
     {
         swiper_slides = $('.swiper-wrapper .swiper-slide');
         swiper_array = swiper_slides.toArray();
-
-        // changing these numbers will change how long the banner's interval in changing is
         setTimeout(toggleActive, 4000)
         setInterval(toggleActive, 4000);
     }

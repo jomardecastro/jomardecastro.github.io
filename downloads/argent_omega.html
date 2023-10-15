@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <title>| Argent</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="/assets/scripts/jquiry.js"></script>
+  <script src="/assets/scripts/swiper.js"></script>
+  <link rel="stylesheet" href="/assets/css/pages.css" />
+
+  <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
+    id='bootstrap.min.js-cdn-js'></script>
+  <link rel='stylesheet' id='bootstrap.min-css'
+    href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' type='text/css' media='all' />
+  <!-- <link rel="stylesheet" href="/assets/css/pages.css" /> -->
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="icon" href="/assets/images/fav.png" sizes="32x32" />
+  <link rel="icon" href="/assets/images/fav.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/assets/images/fav.png" />
+  <script src="/assets/scripts/scripts.js"></script>
+  <script src="/assets/scripts/header.js"></script>
+  <style>
+    .swiper {
+      color: black
+    }
+  </style>
+</head>
+
+<body class="font-cairo">
+
+  <header class="header desktop lg:py-5 bg-white transition-all duration-700" style="z-index:1">
+    <div class="container grid grid-cols-2 lg:flex lg:items-center lg:justify-between lg:px-10">
+      <a href="https://instanthelp.argent.com/login"
+        class="px-10 lg:p-0 col-span-2 lg:order-last text-[#ff602e] text-lg leading-7 tracking-[2px] font-semibold flex items-center justify-center lg:justify-end bg-[#001647] lg:bg-transparent gap-1">
+        <img src="/assets/images/support.svg" width="38" height="38" alt="v">
+        Instant Help
+      </a>
+      <a href="/" class="pl-10 py-7 lg:p-0">
+        <img src="/assets/images/main-logo-transparent.png" width="147" height="16" alt="Logo">
+        <span class="sr-only">Logo</span>
+      </a>
+      <nav class="nav-menu flex justify-end">
+        <ul id="menu-header-menu"
+          class="transition-all duration-700 flex flex-col lg:flex-row z-[1] lg:py-0 items-center gap-2 lg:gap-10 fixed lg:static -top-52 left-0 w-full lg:w-auto bg-[#f2fbfc] lg:bg-transparent">
+          <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/') ? 'active' : ''; ?>">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/products.php') ? 'active' : ''; ?>">
+            <a href="/products.php" class="nav-link">Products</a>
+          </li>
+          <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/whitepaper.php') ? 'active' : ''; ?>">
+            <a href="/whitepaper.php" class="nav-link">White Papers</a>
+          </li>
+          <li class="menu-item nav-item <?php echo ($_SERVER['REQUEST_URI'] == '/company.php') ? 'active' : ''; ?>">
+            <a href="/company.php" class="nav-link">Company</a>
+          </li>
+          <li class="menu-item nav-item">
+            <a target="_blank" rel="noopener" href="https://help.argent.com/support/" class="nav-link">Support</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="home-content">
+    <main>
+
+      <div class="swiper slider-certificate">
+        <div class="swiper-wrapper items-center leading-normal lg:text-[25px] lg:leading-[52px] py-3 -z-[1]">
+          <!-- slider item  -->
+          <div class="swiper-slide active text-center cursor-grab">
+            <strong>
+              Onsite
+            </strong>
+            Implementations
+            <strong class="text-[#f00]">Always Free</strong>
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            <strong>
+              Onsite
+            </strong>
+            Training
+            <strong class="text-[#f00]">Always Free</strong>
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            <strong>
+              Onsite
+            </strong>
+            Health Check
+            <strong class="text-[#f00]">Always Free</strong>
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            North American Engineers For North American Customers
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            Singaporean Engineers For Singaporean Customers
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            Swiss Engineers For Swiss Customers
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            <strong class="text-[#f00]">Free</strong>
+            Active Directory Monitoring
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            All Your Devices Worldwide On One Free 62-inch
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            GDPR and CJIS Compliance -- Keep External Auditors Happy
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            <strong class="text-[#f00]">Free</strong>
+            Printer Monitoring
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            Integrity - Argent Has Never Used A Collection Agency...
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            Prudent - Money Not Wasted Naming Sporting Stadiums...
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            Professional - People Not YouTube...
+          </div>
+          <!-- slider item  -->
+          <div class="swiper-slide text-center cursor-grab">
+            <strong class="text-[#f00]">Free</strong>
+            <a href="#" class="underline">Complete</a>
+            SNMP Monitoring For All Your Devices
+          </div>
+        </div>
+      </div>
+
+      <section class="productswrap">
+        <div class="container">
+          <div class="main-wrap">
+            <div class="accordions" id="accordion">
+              <div class="card">
+                <div class="card-header" id="heading-12">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-12" aria-expanded="false"
+                    aria-controls="collapse12"> Downloads </button>
+                </div>
+                <div id="collapse-12" class="collapse show" aria-labelledby="heading-12" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item"> <a class="nav-link " href="/downloads/argent_omega.html">
+                          Argent Omega </a> </li>
+                      <li class="nav-item"> <a class="nav-link " href="/downloads/product1.html">
+                          Product 1 </a> </li>
+                      <li class="nav-item"> <a class="nav-link " href="/downloads/product2.html">
+                          Product 2 </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading-11">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-11" aria-expanded="false"
+                    aria-controls="collapse11"> Documentation </button>
+                </div>
+                <div id="collapse-11" class="collapse show" aria-labelledby="heading-11" data-parent="#accordion">
+                  <div class="card-body">
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item"> <a class="nav-link " href="/documentation/argent_omega.html">
+                          Argent Omega </a> </li>
+                      <li class="nav-item"> <a class="nav-link " href="/documentation/product1.html">
+                          Product 1 </a> </li>
+                      <li class="nav-item"> <a class="nav-link " href="/documentation/product2.html">
+                          Product 2 </a> </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="first283" role="tabpanel" aria-labelledby="first283-tab">
+                <!-- Inner Tabs -->
+                <div class="inner-tabs">
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade show active " id="overview283">
+                      <!-- Inner Content Start -->
+                      <h2> Download Argent Omega </h2>
+                      <p>Argent Omega is the next-generation Argent monitoring product.</p>
+                      <p>Argent Omega provides an easy-to-use interface with integrated AI learning.</p>
+                      <p>Argent Omega consists of:</p>
+                      <ul>
+                        <li>Argent Compliance Automator</li>
+                        <li>Argent Omega Baseline</li>
+                        <li>Argent Omega for Microsoft 365</li>
+                        <li>Argent Omega for SNMP</li>
+                        <li>Argent Omega for SQL Server</li>
+                        <li>Argent Omega for Oracle</li>
+                        <li>Argent Omega for Vmware</li>
+                        <li>Argent Omega Web Defender</li>
+                        <li>Argent Reporter</li>
+                      </ul>
+
+                      <p>Argent Omega 2.2A-2307-A (Build Version: 2.2.2308.6)</p>
+                      <p>
+                        <a href="/zips/ARGENT_OMEGA_INSTALL_2_2A_2307_A__2_2_2308_6.zip" target="content"
+                          rel="noopener">
+                          <img decoding="async" alt="Download Product" border="0"
+                            src="/assets/images/download_complete_product.gif">
+                        </a>
+                      </p>
+                    </div>
+                    <!-- Inner Content End -->
+                  </div>
+                </div>
+                <!-- Else OverView Start-->
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+  </section>
+
+
+  <footer class="bg-[#f6fcfd] pt-[54px] pb-4">
+    <div class="flex flex-col container items-center">
+      <a href="#" class="">
+        <img src="/assets/images/footer-logo.png" width="184" height="20" alt="logo">
+        <span class="sr-only">Logo</span>
+      </a>
+      <div class="grid lg:grid-cols-3 py-6 lg:pt-[100px] lg:pb-[66px] w-full gap-4">
+        <div class="flex flex-col">
+          <h4 class="text-[#233655] text-sm lg:text-[22px] leading-[30px] font-bold text-center tracking-[4px]">
+            Company
+          </h4>
+          <ul class="flex items-center flex-col gap-1.5">
+            <li class="">
+              <a href="/#"
+                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">Contact
+                Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <h4 class="text-[#233655] text-sm lg:text-[22px] leading-[30px] font-bold text-center tracking-[4px]">
+            Documentation
+          </h4>
+          <ul class="flex items-center flex-col gap-1.5">
+            <li class="">
+              <a href="https://help.argent.com/support/"
+                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
+                Support and Knowledgebase Articles
+              </a>
+            </li>
+            <li class="">
+              <a href="https://instanthelp.argent.com/login"
+                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
+                Live Instant Help
+              </a>
+            </li>
+            <li class="">
+              <a href="#"
+                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
+                Argent’s Unique Architecture
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <h4 class="text-[#233655] text-sm lg:text-[22px] leading-[30px] font-bold text-center tracking-[4px]">
+            Privacy Policy
+          </h4>
+          <ul class="flex items-center flex-col gap-1.5">
+            <li class="">
+              <a href="#"
+                class="tracking-[2px] [word-spacing:4px] text-[#596480] text-center text-xs lg:text-sm leading-normal lg:leading-7 font-medium">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="px-6 lg:px-0">
+        <p class="text-[#5a6581] text-xs lg:text-sm leading-7 text-center">
+          Performance Assured by Argent® Web Defender
+          <a class="text-[#1565d8]" href="https://help.argent.com/product_downloads/product_downloads_omega/"
+            target="_blank">
+            Click to download free demo
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

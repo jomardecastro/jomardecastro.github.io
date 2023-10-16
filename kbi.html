@@ -28,10 +28,53 @@
     .swiper {
       color: black
     }
-    .float-left:hover, .float-right:hover {
-    text-decoration: underline !important;
+
+    .float-left:hover,
+    .float-right:hover {
+      text-decoration: underline !important;
     }
   </style>
+  <script>
+    function searchFiles()
+    {
+      const searchQuery = document.getElementById("searchInput").value;
+      const resultsList = document.getElementById("results");
+
+      const xhr = new XMLHttpRequest();
+      xhr.open("GET", "/backend/kbi_submit.php?query=" + searchQuery, true);
+      xhr.onreadystatechange = function ()
+      {
+        if (xhr.readyState === 4 && xhr.status === 200)
+        {
+          const files = JSON.parse(xhr.responseText);
+
+          resultsList.innerHTML = '';
+
+          if (files.length === 0)
+          {
+            resultsList.innerHTML = '<p>No files found.</p>';
+          } else
+          {
+            files.forEach(function (file)
+            {
+              const listItem = document.createElement("li");
+              listItem.innerHTML = `<a href="/kbi/${file}" target="_blank">${file.replace(".html","")}</a>`;
+              resultsList.appendChild(listItem);
+            });
+          }
+        }
+      };
+
+      xhr.send();
+    }
+
+    function onDOMContentLoaded()
+    {
+      searchFiles();
+    }
+
+    window.addEventListener("DOMContentLoaded", onDOMContentLoaded);
+  </script>
 </head>
 
 <body class="font-cairo">
@@ -74,128 +117,20 @@
   <section class="home-content">
     <main>
 
-      <div class="swiper slider-certificate">
-        <div class="swiper-wrapper items-center leading-normal lg:text-[25px] lg:leading-[52px] py-3 -z-[1]">
-          <!-- slider item  -->
-          <div class="swiper-slide active text-center cursor-grab">
-            <strong>
-              Onsite
-            </strong>
-            Implementations
-            <strong class="text-[#f00]">Always Free</strong>
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            <strong>
-              Onsite
-            </strong>
-            Training
-            <strong class="text-[#f00]">Always Free</strong>
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            <strong>
-              Onsite
-            </strong>
-            Health Check
-            <strong class="text-[#f00]">Always Free</strong>
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            North American Engineers For North American Customers
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            Singaporean Engineers For Singaporean Customers
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            Swiss Engineers For Swiss Customers
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            <strong class="text-[#f00]">Free</strong>
-            Active Directory Monitoring
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            All Your Devices Worldwide On One Free 62-inch
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            GDPR and CJIS Compliance -- Keep External Auditors Happy
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            <strong class="text-[#f00]">Free</strong>
-            Printer Monitoring
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            Integrity - Argent Has Never Used A Collection Agency...
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            Prudent - Money Not Wasted Naming Sporting Stadiums...
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            Professional - People Not YouTube...
-          </div>
-          <!-- slider item  -->
-          <div class="swiper-slide text-center cursor-grab">
-            <strong class="text-[#f00]">Free</strong>
-            <a href="#" class="underline">Complete</a>
-            SNMP Monitoring For All Your Devices
-          </div>
-        </div>
-      </div>
+
 
       <section class="productswrap">
         <div class="container">
-          <div class="main-wrap">
-            <div class="accordions" id="accordion">
-              <div class="card">
-                <div class="card-header" id="heading-12">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-12" aria-expanded="false"
-                    aria-controls="collapse12"> Downloads </button>
-                </div>
-                <div id="collapse-12" class="collapse show" aria-labelledby="heading-12" data-parent="#accordion">
-                  <div class="card-body">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                      <li class="nav-item"> <a class="nav-link " href="/downloads/argent_omega.html">
-                          Argent Omega </a> </li>
-                      <li class="nav-item"> <a class="nav-link " href="/downloads/argent_job_scheduler.html">
-                          Argent Job Scheduler </a> </li>
-                      <li class="nav-item"> <a class="nav-link " href="/downloads/argent_worldview.html">
-                          Argent Worldview </a> </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="heading-11">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-11" aria-expanded="false"
-                    aria-controls="collapse11"> Documentation </button>
-                </div>
-                <div id="collapse-11" class="collapse show" aria-labelledby="heading-11" data-parent="#accordion">
-                  <div class="card-body">
-
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                      <li class="nav-item"> <a class="nav-link " href="/documentation/argent_omega.html">
-                          Argent Omega </a> </li>
-                      <li class="nav-item"> <a class="nav-link " href="/documentation/argent_job_scheduler.html">
-                          Argent Job Scheduler </a> </li>
-                      <li class="nav-item"> <a class="nav-link " href="/documentation/argent_worldview.html">
-                          Argent Worldview </a> </li>
-                    </ul>
-
-                  </div>
-                </div>
-              </div>
+          <h2> Knowledge Base </h2>
+          <div class="row my-3">
+            <div class="col-md-10">
+              <input type="text" id="searchInput" placeholder="For optimal results search using KBI Number/Title/Keywords.....">
             </div>
-
+            <div class="col-md-2">
+              <input onclick="searchFiles()" style="background-color: #e6e6e6;" type="button" value="Search" />
+            </div>
           </div>
+          <ul id="results"></ul>
         </div>
       </section>
     </main>

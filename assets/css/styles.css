@@ -2432,7 +2432,7 @@ img {
 }
 .main-wrap .tab-pane img,
 .main-wrap .tab-pane p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .main-wrap .accordions .card {
   border: none;
@@ -2470,7 +2470,7 @@ img {
   transform: translateY(-50%);
   width: 9px;
   height: 9px;
-  background-image: url(../img/angle.svg);
+  background-image: url(../images/angle.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

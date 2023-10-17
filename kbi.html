@@ -40,9 +40,8 @@
     {
       let searchQuery = document.getElementById("searchInput").value;
       let resultsList = document.getElementById("results");
-      let gistURL = "https://api.github.com/gists/4412258a03b25102ae8c19c9de23813c"
       let xhr = new XMLHttpRequest();
-      xhr.open("GET", gistURL+"?query=" + searchQuery, true);
+      xhr.open("GET", "/backend/kbi_submit.php?query=" + searchQuery, true);
       xhr.onreadystatechange = function ()
       {
         if (xhr.readyState === 4 && xhr.status === 200)

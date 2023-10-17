@@ -24,6 +24,7 @@
   <link rel="apple-touch-icon" href="/assets/images/fav.png" />
   <script src="/assets/scripts/scripts.js"></script>
   <script src="/assets/scripts/header.js"></script>
+  <script src=""></script>
   <style>
     .swiper {
       color: black
@@ -37,16 +38,16 @@
   <script>
     function searchFiles()
     {
-      const searchQuery = document.getElementById("searchInput").value;
-      const resultsList = document.getElementById("results");
-
-      const xhr = new XMLHttpRequest();
-      xhr.open("GET", "/backend/kbi_submit.php?query=" + searchQuery, true);
+      let searchQuery = document.getElementById("searchInput").value;
+      let resultsList = document.getElementById("results");
+      let gistURL = "https://gist.github.com/jomardecastro/4412258a03b25102ae8c19c9de23813c.js"
+      let xhr = new XMLHttpRequest();
+      xhr.open("GET", gistURL+"?query=" + searchQuery, true);
       xhr.onreadystatechange = function ()
       {
         if (xhr.readyState === 4 && xhr.status === 200)
         {
-          const files = JSON.parse(xhr.responseText);
+          let files = JSON.parse(xhr.responseText);
 
           resultsList.innerHTML = '';
 
@@ -57,7 +58,7 @@
           {
             files.forEach(function (file)
             {
-              const listItem = document.createElement("li");
+              let listItem = document.createElement("li");
               listItem.innerHTML = `<a href="/kbi/${file}" target="_blank">${file.replace(".html","")}</a>`;
               resultsList.appendChild(listItem);
             });
